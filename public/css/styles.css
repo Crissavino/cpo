@@ -83,7 +83,7 @@ body {
 
 #timer-section {
     position: fixed;
-    top: 50%;
+    top: 60%;
     right: 0;
     z-index: 1000;
 }
@@ -95,7 +95,7 @@ body {
     background-color: #ffffff;
     box-shadow: 0 15px 45px 0 rgb(60 66 87 / 8%), 0 5px 25px 0 rgb(0 0 0 / 12%);
     position: fixed;
-    top: 53.5%;
+    top: 63.5%;
     right: 0;
     cursor: pointer;
 }
@@ -117,7 +117,7 @@ body {
     border-radius: 16px 0 0 16px;
     /*box-shadow: 0 15px 45px 0 rgb(60 66 87 / 8%), 0 5px 25px 0 rgb(0 0 0 / 12%);*/
     position: fixed;
-    top: 47%;
+    top: 57%;
     right: -150px;
 }
 
