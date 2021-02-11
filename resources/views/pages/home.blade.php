@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Contador de palabras online')
-@section('description', 'El Contador de palabras online es una poderosa herramienta la cual te permite contar la cantidad de palabras, caracteres, oraciones y párrafos. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto.')
+@section('description', 'El Contador de palabras online es una poderosa herramienta la cual te permite contar la cantidad de palabras, caracteres, oraciones y párrafos que se encuentren en tu texto. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto.')
 
 @section('content')
 
@@ -149,7 +149,7 @@
                         <li class="">
                             <div>
                                 <p style="color: white; text-align: left">
-                                    El <b>Contador de palabras online</b> es una poderosa herramienta la cual te permite contar la cantidad de palabras, caracteres, oraciones, párrafos. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto. Es posible copiar y pegar el texto y el sistema automáticamente mostrará el recuento de palabras y caracteres como si hubieras escrito caracter por caracter.
+                                    El <b>Contador de palabras online</b> es una poderosa herramienta la cual te permite contar la cantidad de palabras, caracteres, oraciones y párrafos que se encuentren en tu texto. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto. Es posible copiar y pegar el texto y el sistema automáticamente mostrará el recuento de palabras y caracteres como si hubieras escrito caracter por caracter.
                                 </p>
                             </div>
                         </li>
