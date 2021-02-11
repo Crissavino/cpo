@@ -139,7 +139,7 @@
 
     </section>
 
-    <section id="how-does-it-work" class="mb-0">
+    <section id="how-does-it-work" class="mb-5">
         <div class="container" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
             <div class="row">
                 <div class="col-12 mt-5 text-center">
@@ -175,9 +175,6 @@
                             </div>
                         </li>
                     </ul>
-                </div>
-                <div class="offset-lg-2 col-lg-4 offset-md-0 col-md-5 offset-sm-2 col-sm-8 col-8 offset-2">
-
                 </div>
             </div>
         </div>
