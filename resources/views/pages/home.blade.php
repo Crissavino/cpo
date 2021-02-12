@@ -183,6 +183,5 @@
 @endsection
 @section('javascript')
 
-    <script src="{{asset('js/stopwatch.js')}}"></script>
     <script src="{{asset('js/home.js')}}"></script>
 @endsection
