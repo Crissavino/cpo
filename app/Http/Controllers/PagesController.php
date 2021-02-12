@@ -23,6 +23,14 @@ class PagesController extends Controller
         ]);
     }
 
+    public function cookies()
+    {
+        $acceptCookie = Session::get('acceptCookie', false);
+        return view('pages.cookies', [
+            'acceptCookie' => $acceptCookie
+        ]);
+    }
+
     public function acceptCookies()
     {
         Session::put('acceptCookie', true);

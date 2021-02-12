@@ -25,7 +25,7 @@
                                 Las cookies de esta web se usan para personalizar los anuncios, funciones de redes sociales y
                                 analizar el tráfico. Compartimos información sobre el uso que haga de la web con nuestros partners
                                 de redes sociales, publicidad y análisis web.
-                                <a href="#masInfo" target="_blank"> Más información</a></p>
+                                <a href="{{route('cookies')}}" target="_blank"> Más información</a></p>
                         </div>
                         <div class="col-2 col-sm-1">
                             <button type="button" onclick="acceptCookies()" class="btn btn-sm p-1" style="color: white;" name="button">Aceptar</button>
