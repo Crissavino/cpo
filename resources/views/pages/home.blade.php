@@ -5,16 +5,12 @@
 
 @section('content')
 
-    <div class="text-center mb-5" style="height: 150px; background-color: red">
-        PUBLICIDAD
-    </div>
-
-    <section id="banner" class="d-flex justify-content-center">
+    <section id="banner" class="d-flex justify-content-center background-x">
         <div class="wrapper">
             <div class="m-5 text-center">
-                <h1>Contador de palabras online</h1>
+                <h1>CONTADOR DE PALABRAS ONLINE</h1>
                 <p class="mt-5">Bienvenido al mejor contador de palabras online, empezamos?</p>
-                <a onclick="goToCountWords()" class="btn btn-outline-light btn-no-fill btn-rounded mt-5 animate">Empezar</a>
+                <a onclick="goToCountWords()" class="btn btn-outline-light btn-no-fill btn-rounded mt-5 animate custom-font">Empezar</a>
             </div>
         </div>
     </section>
@@ -40,10 +36,6 @@
 
         <div class="count-div">
             <textarea name="" id="" cols="30" rows="12" class="form-control count-textarea mb-5"></textarea>
-
-            <div class="text-center mb-5" style="height: 150px; background-color: red">
-                PUBLICIDAD
-            </div>
 
             <div class="stats pb-5" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
                 <div class="d-flex align-items-center">
@@ -77,11 +69,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="text-center mb-5" style="height: 150px; background-color: red">
-                PUBLICIDAD
-            </div>
-
 
             <div class="d-none" id="wordsDensity">
                 <div class="stats mb-0 d-none" id="wordsDensity1">
@@ -129,21 +116,16 @@
                     </div>
                 </div>
 
-                <div class="text-center mt-5" style="height: 150px; background-color: red">
-                    PUBLICIDAD
-                </div>
-
             </div>
 
         </div>
 
     </section>
 
-    <section id="how-does-it-work" class="mb-5">
+    <section id="how-does-it-work" class="mb-5 background-y">
         <div class="container" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
             <div class="row">
-                <div class="col-12 mt-5 text-center">
-                    <span class="text-primary pb-5" style="color: white">Como funciona</span>
+                <div class="col-12 mt-4 text-center">
                     <h3 class="mb-5" style="color: white">Como usar el contador de palabras online?</h3>
                     <ul class="numbered-list mt-5">
                         <li class="">
@@ -182,6 +164,8 @@
 
 @endsection
 @section('javascript')
-
+    <script>
+        const fromSearchers = {!! json_encode($fromSearchers) !!};
+    </script>
     <script src="{{asset('js/home.js')}}"></script>
 @endsection

@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PagesController::class, 'home'])->name('home');
-Route::get('/serp', [PagesController::class, 'serp'])->name('serp');
+Route::get('/', [PagesController::class, 'home'])->name('home')->middleware('searchersReferer');
+Route::get('/serp', [PagesController::class, 'serp'])->name('serp')->middleware('searchersReferer');
 Route::get('/cookies', [PagesController::class, 'cookies'])->name('cookies');
 Route::post('/acceptCookies', [PagesController::class, 'acceptCookies'])->name('acceptCookies');

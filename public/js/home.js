@@ -9,9 +9,14 @@ window.onload = () => {
 
         this.showWordsDensity(textArea.value)
     })
+
+    if (fromSearchers) {
+        this.goToCountWords();
+    }
 }
 
 function goToCountWords() {
+    console.log('entra')
     const textArea = document.querySelector(".count-textarea");
     const y = textArea.getBoundingClientRect().top + window.pageYOffset - 80;
     textArea.focus();
@@ -174,7 +179,6 @@ function showWordsDensity(str) {
         wordsDensity2.classList.add('d-none')
     }
     if (compressed.length === 5) {
-        wordsDensity1.setAttribute('style', 'border-bottom: none;')
         wordsDensity.classList.remove('d-none')
         wordsDensity1.classList.remove('d-none')
         wordBlock1.classList.remove('d-none')
@@ -195,7 +199,6 @@ function showWordsDensity(str) {
         wordsDensity2.classList.add('d-none')
     }
     if (compressed.length === 6) {
-        wordsDensity1.setAttribute('style', 'border-bottom: 1px solid;')
         wordsDensity.classList.remove('d-none')
         wordsDensity1.classList.remove('d-none')
         wordBlock1.classList.remove('d-none')
@@ -223,7 +226,6 @@ function showWordsDensity(str) {
         wordBlock10.classList.add('d-none')
     }
     if (compressed.length === 7) {
-        wordsDensity1.setAttribute('style', 'border-bottom: 1px solid;')
         wordsDensity.classList.remove('d-none')
         wordsDensity1.classList.remove('d-none')
         wordBlock1.classList.remove('d-none')
@@ -253,7 +255,6 @@ function showWordsDensity(str) {
         wordBlock10.classList.add('d-none')
     }
     if (compressed.length === 8) {
-        wordsDensity1.setAttribute('style', 'border-bottom: 1px solid;')
         wordsDensity.classList.remove('d-none')
         wordsDensity1.classList.remove('d-none')
         wordBlock1.classList.remove('d-none')
@@ -285,7 +286,6 @@ function showWordsDensity(str) {
         wordBlock10.classList.add('d-none')
     }
     if (compressed.length === 9) {
-        wordsDensity1.setAttribute('style', 'border-bottom: 1px solid;')
         wordsDensity.classList.remove('d-none')
         wordsDensity1.classList.remove('d-none')
         wordBlock1.classList.remove('d-none')
@@ -319,7 +319,6 @@ function showWordsDensity(str) {
         wordBlock10.classList.add('d-none')
     }
     if (compressed.length >= 10) {
-        wordsDensity1.setAttribute('style', 'border-bottom: 1px solid;')
         wordsDensity.classList.remove('d-none')
         wordsDensity1.classList.remove('d-none')
         wordBlock1.classList.remove('d-none')

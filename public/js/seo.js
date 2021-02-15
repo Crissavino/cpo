@@ -1,5 +1,7 @@
 window.onload = () => {
-
+    if (fromSearchers) {
+        this.goToSeo();
+    }
 }
 
 function goToSeo() {

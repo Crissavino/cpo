@@ -7,19 +7,24 @@ use Illuminate\Support\Facades\Session;
 
 class PagesController extends Controller
 {
-    public function home(Request $request)
+    public function home()
     {
         $acceptCookie = Session::get('acceptCookie', false);
+        $fromSearchers = Session::get('fromSearchers', false);
+
         return view('pages.home', [
-            'acceptCookie' => $acceptCookie
+            'acceptCookie' => $acceptCookie,
+            'fromSearchers' => $fromSearchers,
         ]);
     }
 
     public function serp()
     {
         $acceptCookie = Session::get('acceptCookie', false);
+        $fromSearchers = Session::get('fromSearchers', false);
         return view('pages.seo', [
-            'acceptCookie' => $acceptCookie
+            'acceptCookie' => $acceptCookie,
+            'fromSearchers' => $fromSearchers,
         ]);
     }
 
@@ -27,7 +32,7 @@ class PagesController extends Controller
     {
         $acceptCookie = Session::get('acceptCookie', false);
         return view('pages.cookies', [
-            'acceptCookie' => $acceptCookie
+            'acceptCookie' => $acceptCookie,
         ]);
     }
 

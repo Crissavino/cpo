@@ -5,16 +5,12 @@
 
 @section('content')
 
-    <div class="text-center mb-5" style="height: 150px; background-color: red">
-        PUBLICIDAD
-    </div>
-
-    <section id="banner" class="d-flex justify-content-center">
+    <section id="banner" class="d-flex justify-content-center background-x">
         <div class="wrapper">
             <div class="m-5 text-center">
-                <h1>Simulador SERP online</h1>
+                <h1>SIMULADOR SERP ONLINE</h1>
                 <p class="mt-5">Bienvenido al simulador SERP online mas completo, empezamos?</p>
-                <a onclick="goToSeo()" class="btn btn-outline-light btn-no-fill btn-rounded mt-5 animate">Empezar</a>
+                <a onclick="goToSeo()" class="btn btn-outline-light btn-no-fill btn-rounded mt-5 animate custom-font">Empezar</a>
             </div>
         </div>
     </section>
@@ -41,14 +37,10 @@
                 <input type="text" id="url" onkeyup="urlChanged()" class="form-control mb-4">
 
                 <div class="text-center">
-                    <a onclick="seeInGoogle()" class="btn btn-outline-light animate btn-rounded mt-5" style="color: white; background-color: #61c5e0">
+                    <a onclick="seeInGoogle()" class="btn btn-outline-light animate btn-rounded mt-5 custom-font" style="color: white; background-color: #61c5e0; padding: 14px 40px; !important;">
                         Ver en google
                     </a>
                 </div>
-            </div>
-
-            <div class="text-center mb-5" style="height: 150px; background-color: red">
-                PUBLICIDAD
             </div>
 
             <div class="mb-5" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
@@ -190,20 +182,16 @@
 
                 </div>
 
-                <div class="text-center mt-5 mb-5" style="height: 150px; background-color: red">
-                    PUBLICIDAD
-                </div>
             </div>
 
         </div>
 
     </section>
 
-    <section id="how-does-it-work" class="mb-5">
+    <section id="how-does-it-work" class="pb-5 background-y" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
         <div class="container" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
             <div class="row">
                 <div class="col-12 mt-5 text-center">
-                    <span class="text-primary pb-5" style="color: white">Como funciona</span>
                     <h3 class="mb-5" style="color: white">Como usar el simulador SERP online?</h3>
                     <ul class="numbered-list mt-5">
                         <li class="">
@@ -241,6 +229,8 @@
 
 @endsection
 @section('javascript')
+    <script>
+        const fromSearchers = {!! json_encode($fromSearchers) !!};
+    </script>
     <script src="{{asset('js/seo.js')}}"></script>
-
 @endsection
