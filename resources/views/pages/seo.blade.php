@@ -59,8 +59,8 @@
                     <div class="headerSearch">
                         <!--Topleft Logo-->
                         <div class="logo">
-                            <a href="../HomePage/index.html">
-                                <img src="http://img.deusm.com/informationweek/2015/09/1322015/logo_420_color_2x.png">
+                            <a style="cursor: pointer">
+                                <img src="{{asset('img/google-brand.png')}}">
                             </a>
                         </div>
                         <!--Searchbar-->
@@ -71,13 +71,13 @@
                     <!--Navigation tabs-->
                     <div class="headerNav">
                         <ul>
-                            <li><a href="#">Todos</a></li>
-                            <li><a href="#">Videos</a></li>
-                            <li><a href="#">Noticias</a></li>
-                            <li><a href="#">Shopping</a></li>
-                            <li><a href="#">Maps</a></li>
-                            <li><a href="#">Más</a></li>
-                            <li><a href="#">Herramientas</a></li>
+                            <li><a style="cursor: pointer">Todos</a></li>
+                            <li><a style="cursor: pointer">Videos</a></li>
+                            <li><a style="cursor: pointer">Noticias</a></li>
+                            <li><a style="cursor: pointer">Shopping</a></li>
+                            <li><a style="cursor: pointer">Maps</a></li>
+                            <li><a style="cursor: pointer">Más</a></li>
+                            <li><a style="cursor: pointer">Herramientas</a></li>
                         </ul>
                     </div>
 
@@ -118,8 +118,7 @@
                                     https://www.contadordepalabrasonline.com/
                                 </p>
                                 <p>
-                                    With zero coding experience, artist building 180 webpages . ... days ago, having
-                                    never done any programming in her life, Jennifer Dewalt built her first webpage.
+                                    El <b>Contador de palabras online</b> es una poderosa herramienta la cual te permite contar la cantidad de <b>palabras</b>, <b>caracteres</b>, <b>oraciones</b> y <b>párrafos</b> que se encuentren en tu texto. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto.
                                 </p>
                             </div>
 
@@ -130,13 +129,12 @@
                             </div>
 
                             <div class="searchResultsItem">
-                                <li><a href="http://www.contadordepalabrasonline.com/seo">Contador de palabras online - Visualizador SEO</a></li>
+                                <li><a href="http://www.contadordepalabrasonline.com/serp">Contador de palabras online - Simulador SERP online</a></li>
                                 <p class="resultAddr">
-                                    https://www.contadordepalabrasonline.com/seo
+                                    https://www.contadordepalabrasonline.com/serp
                                 </p>
                                 <p>
-                                    Now, easier than ever! Build your own highly profitable website with the help of Site
-                                    Build It.
+                                    El <b>Simulador SERP</b> es una herramienta para que los dueños de sitios web puedan ver como lucirá su sitio en los resultados de búsqueda de Google.
                                 </p>
                             </div>
 
