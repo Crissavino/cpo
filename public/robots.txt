@@ -1,2 +1,4 @@
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: http://www.contadordepalabrasonline.com/sitemap.xml
