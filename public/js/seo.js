@@ -30,16 +30,20 @@ function titleChanged() {
     const titleInput = document.getElementById("title");
     let titleChars = document.getElementById("titleChars");
 
-    let seoTitleLink = document.getElementById("seo-title");
+    let seoTitleLinks = document.querySelectorAll('#seo-title')
     let urlInput = document.getElementById("url");
 
     titleChars.innerText = this.countCharsWithOutSpaces(titleInput.value);
     if (titleInput.value !== '') {
-        seoTitleLink.href = urlInput.value;
-        seoTitleLink.innerText = titleInput.value;
+        seoTitleLinks.forEach( title => {
+            title.href = urlInput.value;
+            title.innerText = titleInput.value;
+        })
     } else {
-        seoTitleLink.href = '';
-        seoTitleLink.innerText = 'Título de ejemplo';
+        seoTitleLinks.forEach( title => {
+            title.href = '';
+            title.innerText = 'Título de ejemplo';
+        })
     }
 }
 
@@ -57,11 +61,16 @@ function descChanged() {
 
     descriptionChars.innerText = this.countCharsWithOutSpaces(descriptionInput.value);
 
-    let seoDesc = document.getElementById("seo-desc");
+    let seoDescriptions = document.querySelectorAll("#seo-desc");
+
     if (descriptionInput.value !== '') {
-        seoDesc.innerText = descriptionInput.value;
+        seoDescriptions.forEach(seoDesc => {
+            seoDesc.innerText = descriptionInput.value;
+        })
     } else {
-        seoDesc.innerText = 'Esta es una descripción de ejemplo de como se vería en Google';
+        seoDescriptions.forEach(seoDesc => {
+            seoDesc.innerText = 'Esta es una descripción de ejemplo de como se vería en Google';
+        })
     }
 }
 
@@ -74,16 +83,24 @@ function returnDescCharsValue() {
 }
 
 function urlChanged() {
-    let seoTitleLink = document.getElementById("seo-title");
+    let seoTitleLinks = document.querySelectorAll("#seo-title");
     let urlInput = document.getElementById("url");
-    let seoUrl = document.getElementById("seo-url");
+    let seoUrls = document.querySelectorAll("#seo-url");
 
     if (urlInput.value !== '') {
-        seoTitleLink.href = urlInput.value;
-        seoUrl.innerText = urlInput.value;
+        seoTitleLinks.forEach(seoTitleLink => {
+            seoTitleLink.href = urlInput.value;
+        })
+        seoUrls.forEach(seoUrl => {
+            seoUrl.innerText = urlInput.value;
+        })
     } else {
-        seoTitleLink.href = '';
-        seoUrl.innerText = 'www.ejemplo.com';
+        seoTitleLinks.forEach(seoTitleLink => {
+            seoTitleLink.href = '';
+        })
+        seoUrls.forEach(seoUrl => {
+            seoUrl.innerText = 'www.ejemplo.com';
+        })
     }
 }
 

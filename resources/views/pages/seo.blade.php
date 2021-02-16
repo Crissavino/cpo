@@ -44,7 +44,18 @@
             </div>
 
             <div class="mb-5" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
-                <div class="container">
+
+                <div class="col-12">
+                    <div class="searchResultsItem googleSearcherResult">
+                        <li style="list-style-type: none;">
+                            <a style="text-decoration: none;" href="" id="seo-title">Título de ejemplo</a>
+                        </li>
+                        <p class="resultAddr" id="seo-url">www.ejemplo.com</p>
+                        <p id="seo-desc">Esta es una descripción de ejemplo de como se vería en Google</p>
+                    </div>
+                </div>
+
+                <div class="container googleSearcher">
                     <div class="headerSearch">
                         <!--Topleft Logo-->
                         <div class="logo">

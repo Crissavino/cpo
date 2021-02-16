@@ -303,6 +303,20 @@ p {
     background-color: #ffffff;
 }
 
+.googleSearcherResult {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .googleSearcher {
+        display: none;
+    }
+
+    .googleSearcherResult {
+        display: block;
+    }
+}
+
 .seo-div {
     margin: auto;
     width: 90%;
