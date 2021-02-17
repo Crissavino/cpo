@@ -21,6 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="edit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/googleTemplate.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/googleTemplate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/background-bottom-only-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/background-bottom-only-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/background-top-only-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/background-top-only-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +208,8 @@
       <workItem from="1612906585492" duration="46236000" />
       <workItem from="1613132886950" duration="182000" />
       <workItem from="1613249114624" duration="3803000" />
-      <workItem from="1613379326747" duration="7854000" />
+      <workItem from="1613379326747" duration="8531000" />
+      <workItem from="1613572110488" duration="3835000" />
     </task>
     <task id="LOCAL-00001" summary="WIP styles">
       <created>1613431110992</created>
@@ -233,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613467317670</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="edit">
+      <created>1613467876213</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613467876213</updated>
+    </task>
+    <task id="LOCAL-00006" summary="edit">
+      <created>1613467886582</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613467886582</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,13 +290,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1613049332506" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1613467319318">
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1613467888324">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1613467319318" />
-    <state x="541" y="294" width="597" height="490" key="find.popup" timestamp="1613467465132">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1613467888324" />
+    <state x="457" y="-778" width="683" height="504" key="find.popup" timestamp="1613578418199">
+      <screen x="-161" y="-1080" width="1920" height="1080" />
     </state>
+    <state x="457" y="-778" width="683" height="504" key="find.popup/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1613578418199" />
     <state x="541" y="294" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1613467465132" />
     <state x="505" y="255" key="run.anything.popup" timestamp="1612952433063">
       <screen x="0" y="0" width="1680" height="1050" />

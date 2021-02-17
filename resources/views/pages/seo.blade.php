@@ -8,8 +8,8 @@
     <section id="banner" class="d-flex justify-content-center background-x">
         <div class="wrapper">
             <div class="m-5 text-center">
-                <h1>SIMULADOR SERP ONLINE</h1>
-                <p class="mt-5">Bienvenido al simulador SERP online mas completo, empezamos?</p>
+                <h1 class="titles">SIMULADOR SERP ONLINE</h1>
+                <p class="mt-5" style="font-size: 24px">Bienvenido al simulador SERP online mas completo, empezamos?</p>
                 <a onclick="goToSeo()" class="btn btn-outline-light btn-no-fill btn-rounded mt-5 animate custom-font">Empezar</a>
             </div>
         </div>
@@ -143,15 +143,14 @@
                         <div class="relatedSearches">
                             <h4>Búsquedas relacionadas con contador de palabras online</h4>
                             <ul class="relatedSearchesList">
-                                <li><a href="#">contador de palabras</a></li>
-                                <li><a href="#">contador de palabas online gratis</a></li>
-                                <li><a href="#">contador de caracteres</a></li>
-                                <li><a href="#">contador de caracteres gratis</a></li>
-                                <li><a href="#">contador de caracteres online</a></li>
-                                <li><a href="#">contador de oraciones</a></li>
-                                <li><a href="#">visualizador seo</a></li>
-                                <li><a href="#">visualizador serp</a></li>
-                                <li><a href="#">visualizador google</a></li>
+                                <li><a href="">contador de palabras word</a></li>
+                                <li><a href="">contador de palabras pdf</a></li>
+                                <li><a href="">contar palabras excel</a></li>
+                                <li><a href="">contador de palabras repetidas</a></li>
+                                <li><a href="">contador de caracteres seo</a></li>
+                                <li><a href="">contador de palabras habladas</a></li>
+                                <li><a href="">contador de palabras en alemán</a></li>
+                                <li><a href="">contar palabras overleaf</a></li>
                             </ul>
                             <hr>
                         </div>
@@ -197,11 +196,11 @@
 
     </section>
 
-    <section id="how-does-it-work" class="pb-5 background-y" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
-        <div class="container" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
+    <section id="how-does-it-work" class="pb-5" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
+        <h1 class="text-center titles">Como usar el simulador SERP online?</h1>
+        <div class="container">
             <div class="row">
-                <div class="col-12 mt-5 text-center">
-                    <h3 class="mb-5" style="color: white">Como usar el simulador SERP online?</h3>
+                <div class="col-12 text-center">
                     <ul class="numbered-list mt-5">
                         <li class="">
                             <div>

@@ -28,7 +28,7 @@ body {
 }
 
 .background-bottom{
-    background-image: url(/img/background-bottom-only2.png);
+    background-image: url(/img/background-bottom-only-2.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 0;
@@ -42,12 +42,29 @@ h1, h2, h3 {
     letter-spacing: 10px;
 }
 
+.titles {
+    font-size: 55px;
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 430px) {
+    .titles {
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    .background-x {
+        background-image: none;
+
+    }
+}
+
 .custom-font {
     font-family: 'Arvo', serif;
     font-weight: 700;
     color: #ffffff;
     text-shadow: 0.08em 0.09em 0 rgb(0 0 0 / 40%);
-    font-size: 1em;
+    font-size: 32px;
     letter-spacing: 3px;
 }
 
@@ -335,14 +352,18 @@ p {
 
 /* HOW WORKS */
 #how-does-it-work {
-    /*background-position: bottom right;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: contain;*/
-    width: 100%;
-    min-height: 80vh;
-    /*margin-top: 0;*/
+
 }
 
+#how-does-it-work-seo {
+    min-height: 80vh;
+    background-image: url(/img/background-top-only-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    position: relative;
+    top: -48px;
+}
 .numbered-list {
     list-style: none
 }
@@ -376,7 +397,7 @@ p {
 
 .numbered-list p {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .text-primary {

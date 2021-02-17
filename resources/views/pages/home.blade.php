@@ -8,8 +8,8 @@
     <section id="banner" class="d-flex justify-content-center background-x">
         <div class="wrapper">
             <div class="m-5 text-center">
-                <h1>CONTADOR DE PALABRAS ONLINE</h1>
-                <p class="mt-5">Bienvenido al mejor contador de palabras online, empezamos?</p>
+                <h1 class="titles">CONTADOR DE PALABRAS ONLINE</h1>
+                <p class="mt-5" style="font-size: 24px">Bienvenido al mejor contador de palabras online, empezamos?</p>
                 <a onclick="goToCountWords()" class="btn btn-outline-light btn-no-fill btn-rounded mt-5 animate custom-font">Empezar</a>
             </div>
         </div>
@@ -122,11 +122,11 @@
 
     </section>
 
-    <section id="how-does-it-work" class="mb-5 background-y">
+    <section id="how-does-it-work" class="mb-5">
+        <h1 class="text-center titles">Como usar el contador de palabras online?</h1>
         <div class="container" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
             <div class="row">
                 <div class="col-12 mt-4 text-center">
-                    <h3 class="mb-5" style="color: white">Como usar el contador de palabras online?</h3>
                     <ul class="numbered-list mt-5">
                         <li class="">
                             <div>
