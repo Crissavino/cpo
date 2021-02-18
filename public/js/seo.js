@@ -1,7 +1,35 @@
 window.onload = () => {
+    this.animateStartButton()
+
+    this.animateSeeOnGoogle()
+
     if (fromSearchers) {
         this.goToSeo();
     }
+}
+
+function animateStartButton() {
+    const startButton = document.getElementById('startButton');
+
+    startButton.addEventListener('mouseover', () => {
+        startButton.classList.add('animate__heartBeat')
+    })
+
+    startButton.addEventListener('mouseout', () => {
+        startButton.classList.remove('animate__heartBeat')
+    })
+}
+
+function animateSeeOnGoogle() {
+    const seeInGoogleButton = document.getElementById('seeInGoogleButton');
+
+    seeInGoogleButton.addEventListener('mouseover', () => {
+        seeInGoogleButton.classList.add('animate__heartBeat')
+    })
+
+    seeInGoogleButton.addEventListener('mouseout', () => {
+        seeInGoogleButton.classList.remove('animate__heartBeat')
+    })
 }
 
 function goToSeo() {

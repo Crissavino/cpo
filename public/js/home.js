@@ -1,4 +1,7 @@
 window.onload = () => {
+
+    this.animateStartButton()
+
     const textArea = document.querySelector(".count-textarea");
     textArea.addEventListener('keyup', async () => {
         this.countWords(textArea.value)
@@ -15,8 +18,19 @@ window.onload = () => {
     }
 }
 
+function animateStartButton() {
+    const startButton = document.getElementById('startButton');
+
+    startButton.addEventListener('mouseover', () => {
+        startButton.classList.add('animate__heartBeat')
+    })
+
+    startButton.addEventListener('mouseout', () => {
+        startButton.classList.remove('animate__heartBeat')
+    })
+}
+
 function goToCountWords() {
-    console.log('entra')
     const textArea = document.querySelector(".count-textarea");
     const y = textArea.getBoundingClientRect().top + window.pageYOffset - 80;
     textArea.focus();
@@ -420,7 +434,7 @@ function chrono(){
     let msec = diff.getMilliseconds()
     let sec = diff.getSeconds()
     let min = diff.getMinutes()
-    let hr = diff.getHours()-1
+    let hr = 0
     if (min < 10){
         min = "0" + min
     }

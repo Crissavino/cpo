@@ -5,19 +5,21 @@
 
 @section('content')
 
-    <section id="banner" class="d-flex justify-content-center background-x">
+    <header id="banner" class="d-flex justify-content-center background-x">
         <div class="wrapper">
             <div class="m-5 text-center">
                 <h1 class="titles">SIMULADOR SERP ONLINE</h1>
                 <p class="mt-5" style="font-size: 24px">Bienvenido al simulador SERP online mas completo, empezamos?</p>
-                <a onclick="goToSeo()" class="btn btn-outline-light btn-no-fill btn-rounded mt-5 animate custom-font">Empezar</a>
+                <a onclick="goToSeo()" id="startButton" class="btn btn-outline-light btn-no-fill btn-rounded mt-5 animate__animated custom-font">Empezar</a>
             </div>
         </div>
-    </section>
+    </header>
 
-    <a href="{{ route('home') }}" class="abc-link animate">
-        <img class="abc" src="{{asset('img/abc.png')}}" alt="contar palabras abc">
-    </a>
+    <nav>
+        <a href="{{ route('home') }}" class="abc-link animate">
+            <img class="abc" src="{{asset('img/abc.png')}}" alt="link hacia la pagina para contar palabras, caracteres, párrafos y oricaciones online">
+        </a>
+    </nav>
 
     <section id="seoSection">
 
@@ -25,7 +27,7 @@
             <div id="seo-input" class="p-5 mb-5">
                 <div class="d-flex justify-content-between">
                     <label for="title">Título</label>
-                    <span id="titleChars" style="font-weight: 600;color: #54bfdd;">70</span>
+                    <span id="titleChars" style="font-weight: 600;color: #54bfdd;">60</span>
                 </div>
                 <input type="text" id="title" onkeyup="titleChanged()" onblur="returnTitleCharsValue()" class="form-control mb-4">
                 <div class="d-flex justify-content-between">
@@ -37,7 +39,7 @@
                 <input type="text" id="url" onkeyup="urlChanged()" class="form-control mb-4">
 
                 <div class="text-center">
-                    <a onclick="seeInGoogle()" class="btn btn-outline-light animate btn-rounded mt-5 custom-font" style="color: white; background-color: #61c5e0; padding: 14px 40px; !important;">
+                    <a onclick="seeInGoogle()" id="seeInGoogleButton" class="btn btn-outline-light animate__animated btn-rounded mt-5 custom-font" style="color: white; background-color: #61c5e0; padding: 14px 40px; !important;">
                         Ver en google
                     </a>
                 </div>
@@ -60,7 +62,7 @@
                         <!--Topleft Logo-->
                         <div class="logo">
                             <a style="cursor: pointer">
-                                <img src="{{asset('img/google-brand.png')}}">
+                                <img src="{{asset('img/google-brand.png')}}" alt="es el logo de google">
                             </a>
                         </div>
                         <!--Searchbar-->
@@ -197,7 +199,7 @@
     </section>
 
     <section id="how-does-it-work" class="pb-5" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
-        <h1 class="text-center titles">Como usar el simulador SERP online?</h1>
+        <h2 class="text-center titles">Como usar el simulador SERP online?</h2>
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">

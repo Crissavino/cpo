@@ -1,27 +1,29 @@
 @extends('layouts.master')
 
 @section('title', 'Contador de palabras online')
-@section('description', 'El Contador de palabras online es una poderosa herramienta la cual te permite contar la cantidad de palabras, caracteres, oraciones y párrafos que se encuentren en tu texto. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto.')
+@section('description', 'El Contador de palabras online es una poderosa herramienta la cual te permite contar la cantidad de palabras, caracteres, oraciones y párrafos que se encuentren en tu texto.')
 
 @section('content')
 
-    <section id="banner" class="d-flex justify-content-center background-x">
+    <header id="banner" class="d-flex justify-content-center background-x">
         <div class="wrapper">
             <div class="m-5 text-center">
                 <h1 class="titles">CONTADOR DE PALABRAS ONLINE</h1>
                 <p class="mt-5" style="font-size: 24px">Bienvenido al mejor contador de palabras online, empezamos?</p>
-                <a onclick="goToCountWords()" class="btn btn-outline-light btn-no-fill btn-rounded mt-5 animate custom-font">Empezar</a>
+                <a onclick="goToCountWords()" id="startButton" class="btn btn-outline-light btn-no-fill btn-rounded mt-5 animate__animated custom-font">Empezar</a>
             </div>
         </div>
-    </section>
+    </header>
 
-    <a href="{{ route('serp') }}" class="seo-link animate">
-        <img class="seo" src="{{asset('img/seo.png')}}" alt="seo google">
-    </a>
+    <nav>
+        <a href="{{ route('serp') }}" class="seo-link animate">
+            <img class="seo" src="{{asset('img/seo.png')}}" alt="link hacia la pagina del simulador serp online">
+        </a>
+    </nav>
 
     <section id="timer-section">
         <div class="animate timer" onclick="clickTimer()">
-            <img class="clock-timer" src="{{asset('img/clock.png')}}" alt="cronometro">
+            <img class="clock-timer" src="{{asset('img/clock.png')}}" alt="al hacer click abre el cronómetro">
         </div>
         <div class="animate timer-count text-center d-flex flex-column align-items-center">
             <span class="p-3" id="chronotime">0:00:00:00</span>
@@ -123,7 +125,7 @@
     </section>
 
     <section id="how-does-it-work" class="mb-5">
-        <h1 class="text-center titles">Como usar el contador de palabras online?</h1>
+        <h2 class="text-center titles">Como usar el contador de palabras online?</h2>
         <div class="container" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
             <div class="row">
                 <div class="col-12 mt-4 text-center">
