@@ -5,6 +5,18 @@
 
 @section('content')
 
+    <nav>
+        <a href="{{ route('serp') }}" class="seo-link animate">
+            <img class="seo" src="{{asset('img/seo.png')}}" alt="link hacia la pagina del simulador serp online">
+        </a>
+    </nav>
+
+    <nav>
+        <a href="{{ route('home') }}" class="abc-link animate" style="top: 45% !important;">
+            <img class="abc" src="{{asset('img/abc.png')}}" alt="link hacia la pagina para contar palabras, caracteres, párrafos y oricaciones online">
+        </a>
+    </nav>
+
     <section id="how-does-it-work" class="mb-5">
         <h1 class="pb-5 titles text-center" style="color: white">Información sobre cookies</h1>
         <div class="container" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
