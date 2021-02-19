@@ -9,9 +9,6 @@
         <a href="{{ route('serp') }}" class="seo-link animate">
             <img class="seo" src="{{asset('img/seo.png')}}" alt="link hacia la pagina del simulador serp online">
         </a>
-    </nav>
-
-    <nav>
         <a href="{{ route('home') }}" class="abc-link animate" style="top: 45% !important;">
             <img class="abc" src="{{asset('img/abc.png')}}" alt="link hacia la pagina para contar palabras, caracteres, párrafos y oricaciones online">
         </a>

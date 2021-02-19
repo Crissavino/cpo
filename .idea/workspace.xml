@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="add changes v3">
+    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="add changes v4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/cookies.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/cookies.blade.php" afterDir="false" />
     </list>
@@ -204,7 +204,7 @@
       <workItem from="1613132886950" duration="182000" />
       <workItem from="1613249114624" duration="3803000" />
       <workItem from="1613379326747" duration="8531000" />
-      <workItem from="1613572110488" duration="8108000" />
+      <workItem from="1613572110488" duration="8244000" />
     </task>
     <task id="LOCAL-00001" summary="WIP styles">
       <created>1613431110992</created>
@@ -269,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613727222573</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add changes v4">
+      <created>1613727470453</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613727470453</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +301,8 @@
     <MESSAGE value="add changes" />
     <MESSAGE value="add changes v2" />
     <MESSAGE value="add changes v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add changes v3" />
+    <MESSAGE value="add changes v4" />
+    <option name="LAST_COMMIT_MESSAGE" value="add changes v4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="660" y="466" key="NewPhpFileDialog" timestamp="1612907907538">
@@ -309,10 +317,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1613049332506" />
-    <state x="342" y="-796" key="Vcs.Push.Dialog.v2" timestamp="1613727224273">
+    <state x="342" y="-796" key="Vcs.Push.Dialog.v2" timestamp="1613727472695">
       <screen x="-161" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="342" y="-796" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1613727224273" />
+    <state x="342" y="-796" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1613727472695" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1613467888324" />
     <state x="457" y="-778" width="683" height="504" key="find.popup" timestamp="1613727027518">
       <screen x="-161" y="-1080" width="1920" height="1080" />
