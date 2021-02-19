@@ -19,14 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="add changes">
+    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="add changes v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/seo.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/seo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/cookies.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/cookies.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +207,7 @@
       <workItem from="1613132886950" duration="182000" />
       <workItem from="1613249114624" duration="3803000" />
       <workItem from="1613379326747" duration="8531000" />
-      <workItem from="1613572110488" duration="6015000" />
+      <workItem from="1613572110488" duration="7851000" />
     </task>
     <task id="LOCAL-00001" summary="WIP styles">
       <created>1613431110992</created>
@@ -260,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613582601497</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add changes v2">
+      <created>1613640016865</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613640016865</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +288,8 @@
     <MESSAGE value="edit robots.txt" />
     <MESSAGE value="edit" />
     <MESSAGE value="add changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add changes" />
+    <MESSAGE value="add changes v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add changes v2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="660" y="466" key="NewPhpFileDialog" timestamp="1612907907538">
@@ -298,24 +304,24 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1613049332506" />
-    <state x="342" y="-796" key="Vcs.Push.Dialog.v2" timestamp="1613582603536">
+    <state x="342" y="-796" key="Vcs.Push.Dialog.v2" timestamp="1613640018815">
       <screen x="-161" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="342" y="-796" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1613582603536" />
+    <state x="342" y="-796" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1613640018815" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1613467888324" />
-    <state x="457" y="-778" width="683" height="504" key="find.popup" timestamp="1613578418199">
+    <state x="457" y="-778" width="683" height="504" key="find.popup" timestamp="1613727027518">
       <screen x="-161" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="457" y="-778" width="683" height="504" key="find.popup/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1613578418199" />
+    <state x="457" y="-778" width="683" height="504" key="find.popup/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1613727027518" />
     <state x="541" y="294" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1613467465132" />
     <state x="505" y="255" key="run.anything.popup" timestamp="1612952433063">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="255" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1612952433063" />
-    <state x="416" y="-819" width="766" height="696" key="search.everywhere.popup" timestamp="1613638278959">
+    <state x="416" y="-819" width="766" height="696" key="search.everywhere.popup" timestamp="1613726724874">
       <screen x="-161" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="416" y="-819" width="766" height="696" key="search.everywhere.popup/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1613638278959" />
+    <state x="416" y="-819" width="766" height="696" key="search.everywhere.popup/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1613726724874" />
     <state x="505" y="254" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1613467712025" />
   </component>
 </project>

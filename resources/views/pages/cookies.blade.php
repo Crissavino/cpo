@@ -5,15 +5,11 @@
 
 @section('content')
 
-    <div class="text-center mb-5" style="height: 150px; background-color: red">
-        PUBLICIDAD
-    </div>
-
     <section id="how-does-it-work" class="mb-5">
+        <h1 class="pb-5 titles text-center" style="color: white">Información sobre cookies</h1>
         <div class="container" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
             <div class="row">
                 <div class="col-12 mt-5 text-center">
-                    <h1 class="text-primary pb-5" style="color: white">Información sobre cookies</h1>
                     <ul class="numbered-list mt-5">
                         <li class="">
                             <div>

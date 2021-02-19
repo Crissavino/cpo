@@ -125,6 +125,20 @@
     </section>
 
     <section id="how-does-it-work" class="mb-5">
+{{--        <h2 class="text-center titles">Si te estas haciendo alguna de estas preguntas</h2>--}}
+{{--        <div class="container" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-12 mt-4 text-center">--}}
+{{--                    <ul class="numbered-list mt-5">--}}
+{{--                        <li>--}}
+{{--                            <p style="color: white; text-align: left">--}}
+
+{{--                            </p>--}}
+{{--                        </li>--}}
+{{--                    </ul>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
         <h2 class="text-center titles">Como usar el contador de palabras online?</h2>
         <div class="container" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
             <div class="row">
@@ -133,7 +147,7 @@
                         <li class="">
                             <div>
                                 <p style="color: white; text-align: left">
-                                    El <b>Contador de palabras online</b> es una poderosa herramienta la cual te permite contar la cantidad de palabras, caracteres, oraciones y párrafos que se encuentren en tu texto. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto. Es posible copiar y pegar el texto y el sistema automáticamente mostrará el recuento de palabras y caracteres como si hubieras escrito caracter por caracter.
+                                    El <b>Contador de palabras online</b> es una poderosa herramienta la cual te permite contar la cantidad de palabras, caracteres, oraciones y párrafos que se encuentren en tu texto. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto. Es posible copiar y pegar el texto y el sistema automáticamente mostrará el conteo de palabras y el conteo de caracteres como si hubieras escrito caracter por caracter.
                                 </p>
                             </div>
                         </li>
