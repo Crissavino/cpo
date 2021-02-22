@@ -13,6 +13,7 @@ class PagesController extends Controller
         $fromSearchers = Session::get('fromSearchers', false);
 
         return view('pages.home', [
+            'noIndex' => false,
             'acceptCookie' => $acceptCookie,
             'fromSearchers' => $fromSearchers,
         ]);
@@ -23,6 +24,7 @@ class PagesController extends Controller
         $acceptCookie = Session::get('acceptCookie', false);
         $fromSearchers = Session::get('fromSearchers', false);
         return view('pages.seo', [
+            'noIndex' => false,
             'acceptCookie' => $acceptCookie,
             'fromSearchers' => $fromSearchers,
         ]);
@@ -32,6 +34,7 @@ class PagesController extends Controller
     {
         $acceptCookie = Session::get('acceptCookie', false);
         return view('pages.cookies', [
+            'noIndex' => true,
             'acceptCookie' => $acceptCookie,
         ]);
     }

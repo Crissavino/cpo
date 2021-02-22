@@ -2,7 +2,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0, user-scalable=no,user-scalable=0"/>
+@if($noIndex)
+<meta name="robots" content="noindex,nofollow" />
+@else
 <meta name="robots" content="index, archive">
+@endif
 <meta property="og:type" content="website">
 <meta property="og:title" content="Contrador de palabras online">
 <meta property="og:url" content="https://contadordepalabrasonline.com/">
