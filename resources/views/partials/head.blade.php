@@ -40,3 +40,13 @@
     async
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
 </script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PFCMF7GED1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PFCMF7GED1');
+</script>
