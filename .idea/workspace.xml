@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="add changes v7">
+    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="fix cookies footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +208,7 @@
       <workItem from="1613812432505" duration="72000" />
       <workItem from="1613814469917" duration="2773000" />
       <workItem from="1614001912932" duration="945000" />
-      <workItem from="1614207737696" duration="1166000" />
+      <workItem from="1614207737696" duration="1408000" />
     </task>
     <task id="LOCAL-00001" summary="WIP styles">
       <created>1613431110992</created>
@@ -308,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614250104830</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix cookies footer">
+      <created>1614250720705</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1614250720705</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +344,8 @@
     <MESSAGE value="add changes v5" />
     <MESSAGE value="add changes v6" />
     <MESSAGE value="add changes v7" />
-    <option name="LAST_COMMIT_MESSAGE" value="add changes v7" />
+    <MESSAGE value="fix cookies footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix cookies footer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="660" y="466" key="NewPhpFileDialog" timestamp="1612907907538">
@@ -352,11 +360,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1613049332506" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1614250106444">
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1614250722598">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="342" y="-796" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1613727604902" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1614250106444" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1614250722598" />
     <state x="457" y="-778" width="683" height="504" key="find.popup" timestamp="1613836070387">
       <screen x="-161" y="-1080" width="1920" height="1080" />
     </state>
@@ -366,10 +374,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="255" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1612952433063" />
-    <state x="505" y="254" width="670" height="676" key="search.everywhere.popup" timestamp="1614250626710">
+    <state x="505" y="254" width="670" height="676" key="search.everywhere.popup" timestamp="1614250880222">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="416" y="-819" width="766" height="696" key="search.everywhere.popup/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1613726724874" />
-    <state x="505" y="254" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1614250626710" />
+    <state x="505" y="254" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1614250880222" />
   </component>
 </project>

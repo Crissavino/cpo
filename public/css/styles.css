@@ -47,7 +47,7 @@ h1, h2, h3 {
     margin-top: 70px;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 460px) {
     .titles {
         margin-top: 50px;
         font-size: 40px;
@@ -56,6 +56,12 @@ h1, h2, h3 {
     .background-x {
         background-image: none;
 
+    }
+}
+
+@media screen and (max-width: 358px) {
+    .titles {
+        font-size: 30px;
     }
 }
 
