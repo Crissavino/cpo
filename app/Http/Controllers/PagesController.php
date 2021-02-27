@@ -30,6 +30,16 @@ class PagesController extends Controller
         ]);
     }
 
+    public function faq()
+    {
+        $acceptCookie = Session::get('acceptCookie', false);
+
+        return view('pages.faq', [
+            'noIndex' => false,
+            'acceptCookie' => $acceptCookie,
+        ]);
+    }
+
     public function cookies()
     {
         $acceptCookie = Session::get('acceptCookie', false);

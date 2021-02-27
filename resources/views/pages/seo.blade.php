@@ -19,6 +19,10 @@
         <a href="{{ route('home') }}" class="abc-link animate">
             <img class="abc" src="{{asset('img/abc.png')}}" alt="link hacia la pagina para contar palabras, caracteres, párrafos y oricaciones online">
         </a>
+
+        <a href="{{ route('faq') }}" class="faq-link animate" style="top: 45% !important;">
+            <img class="faq" src="{{asset('img/faq.png')}}" alt="link hacia la pagina de las preguntas frequentes">
+        </a>
     </nav>
 
     <section id="seoSection">
@@ -88,28 +92,25 @@
 
                             <div class="searchResultsAdds p-2 mt-3">
                                 <div class="searchResultsItem mt-0">
-                                    <li><a href="#">With zero coding experience, artist building 180 webpages in 180
-                                            days</a></li>
+                                    <li>
+                                        <a href="http://www.contadordepalabrasonline.com/">Contador de palabras online - Contador de Palabras</a>
+                                    </li>
                                     <p class="resultAddr">
-                                        arstechnica.com/.../with-zero-coding-experience-artist-building-180-web...</p>
+                                        https://www.contadordepalabrasonline.com/
+                                    </p>
                                     <p>
-                                        One of Jennifer Dewalt's creations, this webpage lets visitors create paintings in
+                                        <span>{{date("M")}} {{date("j")}}, {{date("Y")}} - </span>
+                                        El <strong>Contador de palabras online</strong> es una poderosa herramienta la cual te permite contar la cantidad de <strong>palabras</strong>, <strong>caracteres</strong>, <strong>oraciones</strong> y <strong>párrafos</strong> que se encuentren en tu texto. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto.
                                     </p>
                                 </div>
 
                                 <div class="searchResultsItem mb-0">
                                     <li>
-                                        <a href="#">
-                                            I'm learning to code by building 180 websites in 180 ... - Jennifer Dewalt
-                                        </a>
+                                        <a href="http://www.contadordepalabrasonline.com/faq">Contador de palabras online - FAQ</a>
                                     </li>
-                                    <p class="resultAddr">
-                                        blog.jenniferdewalt.com/post/.../im-learning-to-code-by-building-180-websites-in
-                                    </p>
+                                    <p class="resultAddr">https://www.contadordepalabrasonline.com/faq</p>
                                     <p>
-                                        <span>Jul 24, 2013 - </span>
-                                        Build a different website every day for 180 consecutive
-                                        days. Every website must be accompanied by a blog post. Any code I write must be ...
+                                        Aqui encontraras todas las preguntas y respuestas que habitualmente suelen tener nuestros usuarios
                                     </p>
                                 </div>
                             </div>
@@ -120,7 +121,7 @@
                                     https://www.contadordepalabrasonline.com/
                                 </p>
                                 <p>
-                                    El <b>Contador de palabras online</b> es una poderosa herramienta la cual te permite contar la cantidad de <b>palabras</b>, <b>caracteres</b>, <b>oraciones</b> y <b>párrafos</b> que se encuentren en tu texto. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto.
+                                    El <strong>Contador de palabras online</strong> es una poderosa herramienta la cual te permite contar la cantidad de <strong>palabras</strong>, <strong>caracteres</strong>, <strong>oraciones</strong> y <strong>párrafos</strong> que se encuentren en tu texto. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto.
                                 </p>
                             </div>
 
@@ -136,7 +137,7 @@
                                     https://www.contadordepalabrasonline.com/serp
                                 </p>
                                 <p>
-                                    El <b>Simulador SERP</b> es una herramienta para que los dueños de sitios web puedan ver como lucirá su sitio en los resultados de búsqueda de Google.
+                                    El <strong>Simulador SERP</strong> es una herramienta para que los dueños de sitios web puedan ver como lucirá su sitio en los resultados de búsqueda de Google.
                                 </p>
                             </div>
 
@@ -207,21 +208,21 @@
                         <li class="">
                             <div>
                                 <p style="color: white; text-align: left">
-                                    El <b>Simulador SERP</b> es una herramienta para que los dueños de sitios web puedan ver como lucirá su sitio en los resultados de búsqueda de Google. Esto te servirá para conocer si debes hacer algún ajuste, si el título se ve bien, si es muy larga la descripción, si la misma es relevante, entre otras tantas cosas.
+                                    El <strong>Simulador SERP</strong> es una herramienta para que los dueños de sitios web puedan ver como lucirá su sitio en los resultados de búsqueda de Google. Esto te servirá para conocer si debes hacer algún ajuste, si el título se ve bien, si es muy larga la descripción, si la misma es relevante, entre otras tantas cosas.
                                 </p>
                             </div>
                         </li>
                         <li class="mt-5">
                             <div>
                                 <p style="color: white; text-align: left">
-                                    Solo toca el botón Empezar, escribe el título de tu web, la descripción de la página, generalmente es el contenido de la etiqueta Meta Description si es relevante y la url del sitio.
+                                    Solo toca el botón Empezar, escribe el título de tu web, la descripción de la página y la url del sitio. A su vez podrás usar nuestro contador de caracteres SEO que aparece a arriba a la derecha del titulo y la descripción para saber si lo que estas escribiendo no es demasiado largo para los resultados de las búsquedas de Google
                                 </p>
                             </div>
                         </li>
                         <li class="mt-5">
                             <div>
                                 <p style="color: white; text-align: left">
-                                    Nosotros nos encargamos de mostrarte cómo se verá exactamente tu sitio en los resultados de búsqueda de Google cuando las personas lo busquen.
+                                    Cuando termines solo haz click en el botón Ver en google y nosotros nos encargaremos de mostrarte cómo se verá exactamente tu sitio en los resultados de búsqueda de Google cuando las personas te busquen.
                                 </p>
                             </div>
                         </li>

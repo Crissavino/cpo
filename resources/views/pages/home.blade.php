@@ -19,6 +19,10 @@
         <a href="{{ route('serp') }}" class="seo-link animate">
             <img class="seo" src="{{asset('img/seo.png')}}" alt="link hacia la pagina del simulador serp online">
         </a>
+
+        <a href="{{ route('faq') }}" class="faq-link animate" style="top: 45% !important;">
+            <img class="faq" src="{{asset('img/faq.png')}}" alt="link hacia la pagina de las preguntas frequentes">
+        </a>
     </nav>
 
     <section id="timer-section">
@@ -147,28 +151,21 @@
                         <li class="">
                             <div>
                                 <p style="color: white; text-align: left">
-                                    El <b>Contador de palabras online</b> es una poderosa herramienta la cual te permite contar la cantidad de palabras, caracteres, oraciones y párrafos que se encuentren en tu texto. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto. Es posible copiar y pegar el texto y el sistema automáticamente mostrará el conteo de palabras y el conteo de caracteres como si hubieras escrito caracter por caracter.
+                                    El <strong>Contador de palabras online</strong> es una poderosa herramienta la cual te permite contar la cantidad de palabras, la cantidad de caracteres y letras, oraciones y párrafos que se encuentren en tu articulo, texto o ensayo. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto. También es posible copiar y pegar tu texto y el sistema automáticamente mostrará el conteo de palabras y el conteo de caracteres como si lo hubieras escrito uno por uno.
                                 </p>
                             </div>
                         </li>
                         <li class="mt-5">
                             <div>
                                 <p style="color: white; text-align: left">
-                                    Saber cuantas palabras o caracteres posee tu documento puede ser de mucha utilidad. Suele suceder que a un autor se le pida un mínimo o un máximo de palabras para escribir un blog, una nota o artículo, y con el contador de palabras sabrás rápidamente si cumples con los requisitos.
+                                    Saber cuantas palabras o caracteres posee tu documento puede ser de mucha utilidad. Suele suceder que a un autor se le pida un mínimo o un máximo de palabras para escribir un blog, una nota o artículo, y gracias el <strong>Contador de palabras online</strong> sabrás rápidamente si cumples con los requisitos.
                                 </p>
                             </div>
                         </li>
                         <li class="mt-5">
                             <div>
                                 <p style="color: white; text-align: left">
-                                    En el <b>Contador de palabras online</b> contamos con un cronómetro a la derecha de la pantalla el cual te podría servir para saber tu velocidad de lectura y escritura, con esta herramienta fácilmente podrás determinar ambas. Solo basta con iniciar el cronómetro y comenzar a escribir. Una vez que termines podrás detener el cronómetro y ver el resultado.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="mt-5">
-                            <div>
-                                <p style="color: white; text-align: left">
-                                    Además, te mostramos inmediatamente las diez palabras más utilizadas y la cantidad de veces que las repites en el artículo que estás escribiendo. Esto te da la opción de saber qué palabras utilizas con más frecuencia dentro del artículo y así podrás evitar utilizar en exceso ciertas palabras y te permitirá asegurarte que la distribución de las palabras claves coincide con lo que estás necesitando.
+                                    Además, te mostramos inmediatamente las diez palabras más utilizadas y la cantidad de veces que las repites en el ensayo que estes escribiendo. Esto te da la opción de saber cuales utilizas con más frecuencia y así podrás evitar utilizar en exceso ciertas palabras y te permitirá asegurarte que la distribución de las palabras claves coincide con lo que estás necesitando.
                                 </p>
                             </div>
                         </li>

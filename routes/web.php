@@ -18,3 +18,4 @@ Route::get('/', [PagesController::class, 'home'])->name('home')->middleware('sea
 Route::get('/serp', [PagesController::class, 'serp'])->name('serp')->middleware('searchersReferer');
 Route::get('/cookies', [PagesController::class, 'cookies'])->name('cookies');
 Route::post('/acceptCookies', [PagesController::class, 'acceptCookies'])->name('acceptCookies');
+Route::get('/faq', [PagesController::class, 'faq'])->name('faq');

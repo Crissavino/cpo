@@ -126,7 +126,7 @@ p {
 /* END SECTION BANNER*/
 
 /**/
-.seo-link, .abc-link {
+.seo-link, .abc-link, .faq-link {
     position: fixed;
     top: 35%;
     right: 0;
@@ -140,13 +140,14 @@ p {
 }
 
 .seo-link:hover,
-.abc-link:hover{
+.abc-link:hover,
+.faq-link:hover{
     transition: all 0.5s ease;
     transform-origin: 50% 50%;
     transform: scale(1.1);
 }
 
-.seo, .abc {
+.seo, .abc, .faq{
     width: 30px;
     margin-top: 10px;
     margin-left: 12px;
@@ -389,6 +390,33 @@ p {
     -ms-flex-align: center;
     align-items: center;
     margin-bottom: 40px
+}
+
+.accordion-header button {
+    font-size: calc(1.3rem + .6vw);
+    text-align: left;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0.08em 0.09em 0 rgb(0 0 0 / 40%);
+    letter-spacing: 2px;
+}
+
+.accordion-body {
+    color: white;
+    text-align: left;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff !important;
+    background-color: #53c1dd !important;
+}
+
+.accordion-button:focus {
+    border: 1px solid rgba(0,0,0,.125) !important;
+    box-shadow: none !important;
 }
 
 .numbered-list .number {
