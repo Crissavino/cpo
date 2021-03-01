@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Contador de palabras online')
+@section('title', 'Contador de palabras - Contador de caracteres')
 @section('description', 'En el Contador de palabras online podras contar la cantidad de palabras, la cantidad de caracteres, oraciones y parrafos de tu texto.')
 
 @section('content')
