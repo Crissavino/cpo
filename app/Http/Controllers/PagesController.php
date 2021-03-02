@@ -58,6 +58,15 @@ class PagesController extends Controller
         ]);
     }
 
+    public function about()
+    {
+        $acceptCookie = Session::get('acceptCookie', false);
+        return view('pages.about', [
+            'noIndex' => false,
+            'acceptCookie' => $acceptCookie,
+        ]);
+    }
+
     public function acceptCookies()
     {
         Session::put('acceptCookie', true);

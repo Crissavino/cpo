@@ -126,7 +126,7 @@ p {
 /* END SECTION BANNER*/
 
 /**/
-.seo-link, .abc-link, .faq-link, .contact-link {
+.seo-link, .abc-link, .faq-link, .contact-link, .about-link {
     position: fixed;
     top: 35%;
     right: 0;
@@ -142,13 +142,14 @@ p {
 .seo-link:hover,
 .abc-link:hover,
 .faq-link:hover,
-.contact-link:hover {
+.contact-link:hover,
+.about-link:hover {
     transition: all 0.5s ease;
     transform-origin: 50% 50%;
     transform: scale(1.1);
 }
 
-.seo, .abc, .faq, .contact {
+.seo, .abc, .faq, .contact, .about {
     width: 30px;
     margin-top: 10px;
     margin-left: 12px;

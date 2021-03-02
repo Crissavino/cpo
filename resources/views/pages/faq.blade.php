@@ -15,6 +15,9 @@
         <a href="{{ route('contact') }}" class="contact-link animate" style="top: 55% !important;">
             <img class="contact" src="{{asset('img/contact.png')}}" alt="link hacia la pagina de contacto">
         </a>
+        <a href="{{ route('about') }}" class="about-link animate" style="top: 65% !important;">
+            <img class="about" src="{{asset('img/about.png')}}" alt="link hacia la pagina sobre nosotros">
+        </a>
     </nav>
 
     <section id="how-does-it-work" class="mb-5" style="min-height: 100vh">
