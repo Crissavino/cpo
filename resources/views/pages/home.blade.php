@@ -20,7 +20,11 @@
             <img class="seo" src="{{asset('img/seo.png')}}" alt="link hacia la pagina del simulador serp online">
         </a>
 
-        <a href="{{ route('faq') }}" class="faq-link animate" style="top: 45% !important;">
+        <a href="{{ route('contact') }}" class="contact-link animate" style="top: 45% !important;">
+            <img class="contact" src="{{asset('img/contact.png')}}" alt="link hacia la pagina de contacto">
+        </a>
+
+        <a href="{{ route('faq') }}" class="faq-link animate" style="top: 55% !important;">
             <img class="faq" src="{{asset('img/faq.png')}}" alt="link hacia la pagina de las preguntas frequentes">
         </a>
     </nav>

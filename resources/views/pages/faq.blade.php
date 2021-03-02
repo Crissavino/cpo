@@ -12,9 +12,12 @@
         <a href="{{ route('home') }}" class="abc-link animate" style="top: 45% !important;">
             <img class="abc" src="{{asset('img/abc.png')}}" alt="link hacia la pagina para contar palabras, caracteres, párrafos y oricaciones online">
         </a>
+        <a href="{{ route('contact') }}" class="contact-link animate" style="top: 55% !important;">
+            <img class="contact" src="{{asset('img/contact.png')}}" alt="link hacia la pagina de contacto">
+        </a>
     </nav>
 
-    <section id="how-does-it-work" class="mb-5">
+    <section id="how-does-it-work" class="mb-5" style="min-height: 100vh">
         <h1 class="pb-5 titles text-center" style="color: white">FAQ</h1>
         <div class="container-fluid" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
             <div class="row">

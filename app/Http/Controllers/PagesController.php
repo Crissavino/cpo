@@ -49,6 +49,15 @@ class PagesController extends Controller
         ]);
     }
 
+    public function contact()
+    {
+        $acceptCookie = Session::get('acceptCookie', false);
+        return view('pages.contact', [
+            'noIndex' => false,
+            'acceptCookie' => $acceptCookie,
+        ]);
+    }
+
     public function acceptCookies()
     {
         Session::put('acceptCookie', true);

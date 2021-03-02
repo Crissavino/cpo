@@ -19,3 +19,4 @@ Route::get('/serp', [PagesController::class, 'serp'])->name('serp')->middleware(
 Route::get('/cookies', [PagesController::class, 'cookies'])->name('cookies');
 Route::post('/acceptCookies', [PagesController::class, 'acceptCookies'])->name('acceptCookies');
 Route::get('/faq', [PagesController::class, 'faq'])->name('faq');
+Route::get('/contact', [PagesController::class, 'contact'])->name('contact');

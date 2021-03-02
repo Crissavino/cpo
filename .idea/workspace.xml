@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="change titles">
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/faq.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/faq.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +216,8 @@
       <workItem from="1614001912932" duration="945000" />
       <workItem from="1614207737696" duration="4700000" />
       <workItem from="1614416661191" duration="4986000" />
-      <workItem from="1614608632014" duration="331000" />
+      <workItem from="1614608632014" duration="515000" />
+      <workItem from="1614620476320" duration="3620000" />
     </task>
     <task id="LOCAL-00001" summary="WIP styles">
       <created>1613431110992</created>
@@ -359,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614608897126</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="change titles">
+      <created>1614608977469</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1614608977469</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,10 +423,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1613049332506" />
-    <state x="342" y="-796" key="Vcs.Push.Dialog.v2" timestamp="1614608899323">
+    <state x="342" y="-796" key="Vcs.Push.Dialog.v2" timestamp="1614608979046">
       <screen x="-161" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="342" y="-796" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1614608899323" />
+    <state x="342" y="-796" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1614608979046" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1614505996855" />
     <state x="541" y="294" width="597" height="490" key="find.popup" timestamp="1614332641597">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -423,10 +437,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="255" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1612952433063" />
-    <state x="505" y="254" width="670" height="676" key="search.everywhere.popup" timestamp="1614506289655">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="416" y="-819" width="766" height="696" key="search.everywhere.popup" timestamp="1614621315386">
+      <screen x="-161" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="416" y="-819" width="766" height="696" key="search.everywhere.popup/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1614418047535" />
+    <state x="416" y="-819" width="766" height="696" key="search.everywhere.popup/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1614621315386" />
     <state x="505" y="254" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1614506289655" />
   </component>
 </project>

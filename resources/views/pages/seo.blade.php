@@ -20,7 +20,11 @@
             <img class="abc" src="{{asset('img/abc.png')}}" alt="link hacia la pagina para contar palabras, caracteres, párrafos y oricaciones online">
         </a>
 
-        <a href="{{ route('faq') }}" class="faq-link animate" style="top: 45% !important;">
+        <a href="{{ route('contact') }}" class="contact-link animate" style="top: 45% !important;">
+            <img class="contact" src="{{asset('img/contact.png')}}" alt="link hacia la pagina de contacto">
+        </a>
+
+        <a href="{{ route('faq') }}" class="faq-link animate" style="top: 55% !important;">
             <img class="faq" src="{{asset('img/faq.png')}}" alt="link hacia la pagina de las preguntas frequentes">
         </a>
     </nav>
