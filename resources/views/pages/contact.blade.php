@@ -28,7 +28,7 @@
                     <p class="customP" style="color: white !important;">
                         ¡El personal de <strong>Contador de palabras online</strong> está a su disposición para ayudarlo con cualquier problema que encuentre al usar esta herramienta!
                         En <strong>Contador de palabras online</strong> estamos disponibles para brindarle todas las respuestas que necesite de lunes a sábado, de 8AM A 8PM
-                        Así como por correo electrónico a <a href="mailto:prueba@gmail.com" style="color: #a52f2f !important;">prueba@gmail.com</a>.
+                        Así como por correo electrónico a <a href="mailto:contadordepalabrasonline@gmail.com" style="color: #a52f2f !important;">contadordepalabrasonline@gmail.com</a>.
                         ¡También puedes utilizar el formulario que se encuentra en esta página para contactarnos!
                     </p>
                     <br>
