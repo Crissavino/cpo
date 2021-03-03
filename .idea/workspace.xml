@@ -215,7 +215,7 @@
       <workItem from="1614608632014" duration="515000" />
       <workItem from="1614620476320" duration="5272000" />
       <workItem from="1614760743295" duration="3415000" />
-      <workItem from="1614772601011" duration="240000" />
+      <workItem from="1614772601011" duration="351000" />
     </task>
     <task id="LOCAL-00001" summary="WIP styles">
       <created>1613431110992</created>
@@ -413,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614772718155</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="send email from contact page">
+      <created>1614772847980</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1614772847980</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,11 +482,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1613049332506" />
-    <state x="2183" y="415" key="Vcs.Push.Dialog.v2" timestamp="1614772719466">
+    <state x="2183" y="415" key="Vcs.Push.Dialog.v2" timestamp="1614772849373">
       <screen x="1680" y="131" width="1920" height="1080" />
     </state>
     <state x="342" y="-796" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1614678580639" />
-    <state x="2183" y="415" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1614772719466" />
+    <state x="2183" y="415" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1614772849373" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1614505996855" />
     <state x="541" y="294" width="597" height="490" key="find.popup" timestamp="1614332641597">
       <screen x="0" y="0" width="1680" height="1050" />
