@@ -5,6 +5,21 @@
 
 @section('content')
 
+    @if($errors->any())
+        <div class="container mt-3 alert alert-danger">
+            <ul style="list-style: none !important;">
+                <li>{{$errors}}</li>
+            </ul>
+        </div>
+    @endif
+    @if (\Session::has('success'))
+        <div class="container mt-3 alert alert-success">
+            <ul style="list-style: none !important;">
+                <li>{!! \Session::get('success') !!}</li>
+            </ul>
+        </div>
+    @endif
+
     <nav>
         <a href="{{ route('serp') }}" class="seo-link animate">
             <img class="seo" src="{{asset('img/seo.png')}}" alt="link hacia la pagina del simulador serp online">
@@ -41,7 +56,8 @@
                         </div>
                         <div class="bg">
                             <p class="px-lg-5 mb-4 customP">En el equipo de <strong>Contador de palabras online</strong> estamos disponibles para responder a tus preguntas lo mas rápido posible</p>
-                            <form action="" class="px-lg-5" style="font-size: 20px !important;">
+                            <form action="{{route('sendContactEmails')}}" class="px-lg-5" style="font-size: 20px !important;" method="POST">
+                                @csrf
                                 <div class="mb-4">
                                     <label for="name">Nombre completo *</label>
                                     <input type="text" placeholder="Nombre" class="form-control" id="name" name="name" required>

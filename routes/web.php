@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PagesController;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +22,4 @@ Route::post('/acceptCookies', [PagesController::class, 'acceptCookies'])->name('
 Route::get('/faq', [PagesController::class, 'faq'])->name('faq');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('/about', [PagesController::class, 'about'])->name('about');
+Route::post('/sendContactEmails', [PagesController::class, 'sendContactEmails'])->name('sendContactEmails');

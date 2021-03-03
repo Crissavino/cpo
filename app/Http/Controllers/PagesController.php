@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 
 class PagesController extends Controller
@@ -56,6 +57,23 @@ class PagesController extends Controller
             'noIndex' => false,
             'acceptCookie' => $acceptCookie,
         ]);
+    }
+
+    public function sendContactEmails()
+    {
+        $details = [
+            'title' => 'Contacto realizado exitosamente con Contadordepalabrasonline.com',
+            'body' => 'Recibimos su consulta, nos pondremos en contacto a la brevedad'
+        ];
+
+        Mail::to(request()->email)->send(new \App\Mail\ContactMail($details));
+
+        $title = "Contacto a Contadordepalabrasonline.com de " . request()->name . " direccion de correo " . request()->email;
+        $msg = request()->message;
+
+        Mail::to('contadordepalabrasonline@gmail.com')->send(new \App\Mail\ContactMailForUs($title, request()->subject, $msg));
+
+        return redirect()->back()->with('success', 'Tu consulta se envió correctamente');
     }
 
     public function about()
