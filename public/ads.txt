@@ -1,2 +1,2 @@
 # Advanced Ads ads.txt
-google.com, pub-5043015646750420, DIRECT, f08c47fec0942fa0
+google.com, ca-pub-5043015646750420, DIRECT, f08c47fec0942fa0
