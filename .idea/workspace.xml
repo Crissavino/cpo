@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="change for adsense">
+    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="add analytics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/partials/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/head.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +217,8 @@
       <workItem from="1614608632014" duration="515000" />
       <workItem from="1614620476320" duration="5272000" />
       <workItem from="1614760743295" duration="3415000" />
-      <workItem from="1614772601011" duration="1941000" />
+      <workItem from="1614772601011" duration="2303000" />
+      <workItem from="1614790245385" duration="3458000" />
     </task>
     <task id="LOCAL-00001" summary="WIP styles">
       <created>1613431110992</created>
@@ -435,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614775590195</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add analytics">
+      <created>1614776375363</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1614776375363</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +475,6 @@
     <MESSAGE value="add changes v7" />
     <MESSAGE value="fix cookies footer" />
     <MESSAGE value="fix title" />
-    <MESSAGE value="add analytics" />
     <MESSAGE value="add faq" />
     <MESSAGE value="add faq to sitemap.xml" />
     <MESSAGE value="change titles" />
@@ -475,7 +483,8 @@
     <MESSAGE value="add email" />
     <MESSAGE value="send email from contact page" />
     <MESSAGE value="change for adsense" />
-    <option name="LAST_COMMIT_MESSAGE" value="change for adsense" />
+    <MESSAGE value="add analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="add analytics" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2359" y="477" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614761191217">
@@ -498,26 +507,27 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1613049332506" />
-    <state x="2183" y="415" key="Vcs.Push.Dialog.v2" timestamp="1614775591902">
+    <state x="2183" y="415" key="Vcs.Push.Dialog.v2" timestamp="1614776376872">
       <screen x="1680" y="131" width="1920" height="1080" />
     </state>
     <state x="342" y="-796" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1614678580639" />
-    <state x="2183" y="415" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1614775591902" />
+    <state x="2183" y="415" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1614776376872" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1614505996855" />
-    <state x="541" y="294" width="597" height="490" key="find.popup" timestamp="1614332641597">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="2298" y="433" width="683" height="504" key="find.popup" timestamp="1614968336808">
+      <screen x="1680" y="131" width="1920" height="1080" />
     </state>
     <state x="457" y="-778" width="683" height="504" key="find.popup/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1613836070387" />
+    <state x="2298" y="433" width="683" height="504" key="find.popup/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1614968336808" />
     <state x="541" y="294" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1614332641597" />
     <state x="505" y="255" key="run.anything.popup" timestamp="1612952433063">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="255" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1612952433063" />
-    <state x="2257" y="392" width="766" height="696" key="search.everywhere.popup" timestamp="1614775823909">
+    <state x="2257" y="392" width="766" height="696" key="search.everywhere.popup" timestamp="1614967750159">
       <screen x="1680" y="131" width="1920" height="1080" />
     </state>
     <state x="416" y="-819" width="766" height="696" key="search.everywhere.popup/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1614678079268" />
-    <state x="2257" y="392" width="766" height="696" key="search.everywhere.popup/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1614775823909" />
+    <state x="2257" y="392" width="766" height="696" key="search.everywhere.popup/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1614967750159" />
     <state x="505" y="254" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1614506289655" />
   </component>
 </project>

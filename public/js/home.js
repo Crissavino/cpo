@@ -101,6 +101,14 @@ function countSentences(str) {
 
 }
 
+function filterWords(str) {
+    const exclude = ['a', 'al', 'con', 'de', 'en', 'por', 'sin', 'so', 'yo', 'tu', 'el', 'ellos', 'ello', 'ella', 'ellas', 'vos', 'me', 'mi', 'nos', 'os', 'te', 'ti', 'lo', 'le', 'se', 'si', 'los', 'las', 'les', 'y', 'o', 'e', 'u']
+    str = str.filter((s) => {
+        return !exclude.includes(s);
+    });
+    return str;
+}
+
 function showWordsDensity(str) {
     str = str.replace(/(^\s*)|(\s*$)/gi, "");
     str = str.replace(/[ ]{2,}/gi, " ");
@@ -111,6 +119,7 @@ function showWordsDensity(str) {
             return n != ''
         });
     str = str.map((s) => s.toLowerCase())
+    str = filterWords(str);
     let compressed = compressArray(str);
     compressed = compressed.sort(compare);
     let wordsDensity = document.getElementById('wordsDensity');
