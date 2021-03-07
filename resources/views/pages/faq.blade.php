@@ -82,7 +82,7 @@
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    En el <strong>Contador de palabras online</strong> poseemos con un cronómetro a la derecha de la pantalla el cual te podrá servir para saber tu velocidad de lectura y escritura, con esta herramienta fácilmente determinaras ambas. Solo basta con iniciar el cronómetro y comenzar a escribir. Una vez que termines podrás detener el tiempo del cronómetro y ver el resultado.
+                                    En el <strong>Contador de palabras online</strong> poseemos un cronómetro a la derecha de la pantalla el cual te podrá servir para saber tu velocidad de lectura y escritura, con esta herramienta fácilmente determinaras ambas. Solo basta con iniciar el cronómetro y comenzar a escribir. Una vez que termines podrás detener el tiempo del cronómetro y ver el resultado.
                                 </div>
                             </div>
                         </div>
