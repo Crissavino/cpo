@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Contador de caracteres SEO - Simulador SERP online')
+@section('title', 'Contador de caracteres SEO | Simulador SERP online')
 @section('description', 'El Simulador SERP es una herramienta para que los dueños de sitios web puedan ver como lucirá su sitio en los resultados de búsqueda de Google.')
 
 @section('content')
