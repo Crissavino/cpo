@@ -8,8 +8,7 @@
     <header id="banner" class="d-flex justify-content-center background-x">
         <div class="wrapper">
             <div class="m-5 text-center">
-                <h1 class="titles">SIMULADOR SERP ONLINE</h1>
-                <p class="mt-5" style="font-size: 24px">Bienvenido al simulador SERP online mas completo, empezamos?</p>
+                <h1 class="titles mb-5">SIMULADOR SERP ONLINE</h1>
                 <a onclick="goToSeo()" id="startButton" class="btn btn-outline-light btn-no-fill btn-rounded mt-5 animate__animated custom-font">Empezar</a>
             </div>
         </div>
