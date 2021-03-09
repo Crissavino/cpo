@@ -100,7 +100,7 @@
                             <div class="searchResultsAdds p-2 mt-3">
                                 <div class="searchResultsItem mt-0">
                                     <li>
-                                        <a href="http://www.contadordepalabrasonline.com/">Contador de palabras online - Contador de Palabras</a>
+                                        <a href="">Contador de palabras online - Contador de Palabras</a>
                                     </li>
                                     <p class="resultAddr">
                                         https://www.contadordepalabrasonline.com/
@@ -113,7 +113,7 @@
 
                                 <div class="searchResultsItem mb-0">
                                     <li>
-                                        <a href="http://www.contadordepalabrasonline.com/faq">Contador de palabras online - FAQ</a>
+                                        <a href="">Contador de palabras online - FAQ</a>
                                     </li>
                                     <p class="resultAddr">https://www.contadordepalabrasonline.com/faq</p>
                                     <p>
@@ -123,7 +123,7 @@
                             </div>
 
                             <div class="searchResultsItem">
-                                <li><a href="http://www.contadordepalabrasonline.com/">Contador de palabras online - Contador de Palabras</a></li>
+                                <li><a href="">Contador de palabras online - Contador de Palabras</a></li>
                                 <p class="resultAddr">
                                     https://www.contadordepalabrasonline.com/
                                 </p>
@@ -139,7 +139,7 @@
                             </div>
 
                             <div class="searchResultsItem">
-                                <li><a href="http://www.contadordepalabrasonline.com/serp">Contador de palabras online - Simulador SERP online</a></li>
+                                <li><a href="">Contador de palabras online - Simulador SERP online</a></li>
                                 <p class="resultAddr">
                                     https://www.contadordepalabrasonline.com/serp
                                 </p>
