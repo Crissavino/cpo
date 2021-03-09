@@ -54,7 +54,7 @@
                                     Como usar el simulador SERP online?
                                 </button>
                             </h2>
-                            <div id="collapseSeven" class="accordion-collapse collapse show" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <p style="color: white; text-align: left">
                                         El <strong>Simulador SERP</strong> es una herramienta para que los dueños de sitios web puedan ver como lucirá su sitio en los resultados de búsqueda de Google. Esto te servirá para conocer si debes hacer algún ajuste, si el título se ve bien, si es muy larga la descripción, si la misma es relevante, entre otras tantas cosas.
@@ -74,7 +74,7 @@
                                     Como puedo saber cuantas palabras tiene mi ensayo?
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     Utilizando el contador online de palabras fácilmente podrás saber la cantidad de palabras que tiene tu ensayo, articulo o texto. Simplemente tienes que ir la pagina de inicio y hacer click sobre el botón Empezar, te llevará al cuadro de texto donde si comienzas a escribir comenzaremos a contar tus palabras. Si no, una vez en la pagina de inicio te puedes desplazar hacia el cuadro de texto y comenzar a escribir.
                                 </div>
