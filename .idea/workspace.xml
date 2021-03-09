@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="move text to faq">
       <change beforePath="$PROJECT_DIR$/resources/views/pages/faq.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/faq.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +218,7 @@
       <workItem from="1614772601011" duration="2303000" />
       <workItem from="1614790245385" duration="6806000" />
       <workItem from="1615227731554" duration="952000" />
-      <workItem from="1615289604329" duration="62000" />
+      <workItem from="1615289604329" duration="125000" />
     </task>
     <task id="LOCAL-00001" summary="WIP styles">
       <created>1613431110992</created>
@@ -482,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615285477528</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="move text to faq">
+      <created>1615289685346</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1615289685346</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +528,8 @@
     <MESSAGE value="add analytics" />
     <MESSAGE value="fix adsense" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="move text to faq" />
+    <option name="LAST_COMMIT_MESSAGE" value="move text to faq" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2359" y="477" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614761191217">
@@ -547,11 +552,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1613049332506" />
-    <state x="2183" y="415" key="Vcs.Push.Dialog.v2" timestamp="1615285480212">
+    <state x="2183" y="415" key="Vcs.Push.Dialog.v2" timestamp="1615289687795">
       <screen x="1680" y="131" width="1920" height="1080" />
     </state>
     <state x="342" y="-796" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1614678580639" />
-    <state x="2183" y="415" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615285480212" />
+    <state x="2183" y="415" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615289687795" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1614505996855" />
     <state x="2298" y="433" width="683" height="504" key="find.popup" timestamp="1614968336808">
       <screen x="1680" y="131" width="1920" height="1080" />

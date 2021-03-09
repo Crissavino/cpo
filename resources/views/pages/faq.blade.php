@@ -20,6 +20,8 @@
         </a>
     </nav>
 
+    <h1 class="pb-5 titles text-center" style="color: white">FAQ</h1>
+
     <section id="how-does-it-work" class="mb-5">
         <h2 class="text-center titles">Como usar el contador de palabras online?</h2>
         <div class="container" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
@@ -93,7 +95,6 @@
     </section>
 
     <section id="how-does-it-work" class="mb-5" style="min-height: 100vh">
-        <h1 class="pb-5 titles text-center" style="color: white">FAQ</h1>
         <div class="container-fluid" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
             <div class="row">
                 <div class="col-12 text-center">
