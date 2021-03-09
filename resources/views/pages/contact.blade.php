@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Contacta con nuestro equipo')
+@section('title', 'Contacta Con Nuestro Equipo')
 @section('description', 'Contacta con nuestro equipo por cualquier duda o inquietud que tengas, en Contador de palabras online estamos para ayudarte.')
 
 @section('content')

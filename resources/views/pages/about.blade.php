@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Acerca de nosotros')
+@section('title', 'Acerca De Nosotros')
 @section('description', 'En esta sección te contamos como nació Contador de palabras online y el Simulador SERP online')
 
 @section('content')

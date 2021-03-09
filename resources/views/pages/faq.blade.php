@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Preguntas frecuentes')
+@section('title', 'Preguntas Frcuentes')
 @section('description', 'Aqui encontraras todas las preguntas y respuestas que habitualmente suelen tener nuestros usuarios')
 
 @section('content')

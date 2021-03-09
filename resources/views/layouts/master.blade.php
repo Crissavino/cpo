@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <title>@yield('title') | Contador de Palabras Online</title>
+    <title>@yield('title') | &#x2606; Contador de Palabras Online &#x2606;</title>
     <meta name="description" content="@yield('description')">
     <meta property="og:description" content="@yield('description')">
     @include('partials.head')
