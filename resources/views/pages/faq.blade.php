@@ -2,6 +2,7 @@
 
 @section('title', 'Preguntas Frcuentes')
 @section('description', 'Aqui encontraras todas las preguntas y respuestas que habitualmente suelen tener nuestros usuarios')
+@section('canonicalUrl', 'https://contadordepalabrasonline.com/faq')
 
 @section('content')
 

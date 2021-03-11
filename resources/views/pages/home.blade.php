@@ -2,6 +2,7 @@
 
 @section('title', 'Contador De Palabras | Contador De Caracteres')
 @section('description', 'En el Contador de palabras online podras contar la cantidad de palabras, la cantidad de caracteres, oraciones y parrafos de tu texto.')
+@section('canonicalUrl', 'https://contadordepalabrasonline.com/')
 
 @section('content')
 

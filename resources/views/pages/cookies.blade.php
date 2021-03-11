@@ -2,6 +2,7 @@
 
 @section('title', 'Política De Cookies')
 @section('description', 'El Contador de palabras online es una poderosa herramienta la cual te permite contar la cantidad de palabras, caracteres, oraciones y párrafos que se encuentren en tu texto. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto.')
+@section('canonicalUrl', 'https://contadordepalabrasonline.com/cookies')
 
 @section('content')
 

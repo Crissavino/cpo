@@ -4,6 +4,7 @@
     <title>@yield('title') | &#x2606; Contador de Palabras Online &#x2606;</title>
     <meta name="description" content="@yield('description')">
     <meta property="og:description" content="@yield('description')">
+    <link rel="canonical" href="@yield('canonicalUrl')" />
     @include('partials.head')
 
 </head>
