@@ -46,95 +46,95 @@
         </div>
     </section>
 
-    <section id="wordsCountSection">
+    <div id="wordsCountSection">
 
         <div class="count-div">
             <textarea name="" id="" cols="30" rows="12" class="form-control count-textarea mb-5"></textarea>
 
-            <div class="stats pb-5" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
-                <div class="d-flex align-items-center">
+            <section class="stats pb-5" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
+                <article class="d-flex align-items-center">
                     <div>
                         <span class="num" id="numWords">0</span>
                         <span class="label" style="width: 80px">Palabras</span>
                     </div>
-                </div>
-                <div class="d-flex align-items-center">
+                </article>
+                <article class="d-flex align-items-center">
                     <div>
                         <span class="num" id="numCharsWithSpaces">0</span>
                         <span class="label" style="width: 140px">Caracteres (con espacios)</span>
                     </div>
-                </div>
-                <div class="d-flex align-items-center">
+                </article>
+                <article class="d-flex align-items-center">
                     <div>
                         <span class="num" id="numCharsWithoutSpaces">0</span>
                         <span class="label" style="width: 130px">Caracteres (sin espacios)</span>
                     </div>
-                </div>
-                <div class="d-flex align-items-center">
+                </article>
+                <article class="d-flex align-items-center">
                     <div>
                         <span class="num" id="numParagraph">0</span>
                         <span class="label" style="width: 80px">Párrafos</span>
                     </div>
-                </div>
-                <div class="d-flex align-items-center">
+                </article>
+                <article class="d-flex align-items-center">
                     <div>
                         <span class="num" id="numSentences">0</span>
                         <span class="label" style="width: 80px">Oraciones</span>
                     </div>
-                </div>
-            </div>
+                </article>
+            </section>
 
-            <div class="d-none" id="wordsDensity">
+            <section class="d-none" id="wordsDensity">
                 <div class="stats mb-0 d-none" id="wordsDensity1">
-                    <div class="stat-block d-none" id="word-block-1">
+                    <article class="stat-block d-none" id="word-block-1">
                         <span class="num">64</span>
                         <span class="label">Sed euismod</span>
-                    </div>
-                    <div class="stat-block d-none" id="word-block-2">
+                    </article>
+                    <article class="stat-block d-none" id="word-block-2">
                         <span class="num">256</span>
                         <span class="label">Gravida lorem</span>
-                    </div>
-                    <div class="stat-block d-none" id="word-block-3">
+                    </article>
+                    <article class="stat-block d-none" id="word-block-3">
                         <span class="num">1,024</span>
                         <span class="label">Blandit nulla</span>
-                    </div>
-                    <div class="stat-block d-none" id="word-block-4">
+                    </article>
+                    <article class="stat-block d-none" id="word-block-4">
                         <span class="num">512</span>
                         <span class="label">Sapien ultrices</span>
-                    </div>
-                    <div class="stat-block d-none" id="word-block-5">
+                    </article>
+                    <article class="stat-block d-none" id="word-block-5">
                         <span class="num">128</span>
                         <span class="label">Amet commodo</span>
-                    </div>
+                    </article>
                 </div>
                 <div class="stats d-none" id="wordsDensity2">
-                    <div class="stat-block d-none" id="word-block-6">
+                    <article class="stat-block d-none" id="word-block-6">
                         <span class="num">64</span>
                         <span class="label">Sed euismod</span>
-                    </div>
-                    <div class="stat-block d-none" id="word-block-7">
+                    </article>
+                    <article class="stat-block d-none" id="word-block-7">
                         <span class="num">256</span>
                         <span class="label">Gravida lorem</span>
-                    </div>
-                    <div class="stat-block d-none" id="word-block-8">
+                    </article>
+                    <article class="stat-block d-none" id="word-block-8">
                         <span class="num">1,024</span>
                         <span class="label">Blandit nulla</span>
-                    </div>
-                    <div class="stat-block d-none" id="word-block-9">
+                    </article>
+                    <article class="stat-block d-none" id="word-block-9">
                         <span class="num">512</span>
                         <span class="label">Sapien ultrices</span>
-                    </div>
-                    <div class="stat-block d-none" id="word-block-10">
+                    </article>
+                    <article class="stat-block d-none" id="word-block-10">
                         <span class="num">128</span>
                         <span class="label">Amet commodo</span>
-                    </div>
+                    </article>
                 </div>
 
-            </div>
+            </section>
 
         </div>
 
-    </section>
+    </div>
 
 @endsection
 @section('javascript')
