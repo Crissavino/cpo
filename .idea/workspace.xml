@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="add articles">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/cookies.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/cookies.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/faq.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/faq.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
+    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="change canonical">
       <change beforePath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +220,7 @@
       <workItem from="1615227731554" duration="952000" />
       <workItem from="1615289604329" duration="6131000" />
       <workItem from="1615467022012" duration="30000" />
-      <workItem from="1615538590736" duration="26000" />
+      <workItem from="1615538590736" duration="217000" />
     </task>
     <task id="LOCAL-00001" summary="WIP styles">
       <created>1613431110992</created>
@@ -557,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615456138583</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="change canonical">
+      <created>1615538638466</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1615538638466</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +577,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add changes v4" />
     <MESSAGE value="add changes v5" />
     <MESSAGE value="add changes v6" />
     <MESSAGE value="add changes v7" />
@@ -601,7 +601,8 @@
     <MESSAGE value="add optimize" />
     <MESSAGE value="add canonical" />
     <MESSAGE value="add articles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add articles" />
+    <MESSAGE value="change canonical" />
+    <option name="LAST_COMMIT_MESSAGE" value="change canonical" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2359" y="477" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614761191217">
@@ -634,11 +635,11 @@
       <screen x="1680" y="131" width="1920" height="1080" />
     </state>
     <state x="2407" y="386" key="VCS.ChangeListViewerDialog/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615456128101" />
-    <state x="2183" y="415" key="Vcs.Push.Dialog.v2" timestamp="1615456140793">
+    <state x="2183" y="415" key="Vcs.Push.Dialog.v2" timestamp="1615538640195">
       <screen x="1680" y="131" width="1920" height="1080" />
     </state>
     <state x="342" y="-796" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1614678580639" />
-    <state x="2183" y="415" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615456140793" />
+    <state x="2183" y="415" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615538640195" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1614505996855" />
     <state x="2298" y="433" width="683" height="504" key="find.popup" timestamp="1615325069509">
       <screen x="1680" y="131" width="1920" height="1080" />
