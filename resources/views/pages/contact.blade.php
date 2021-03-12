@@ -2,7 +2,7 @@
 
 @section('title', 'Contacta Con Nuestro Equipo')
 @section('description', 'Contacta con nuestro equipo por cualquier duda o inquietud que tengas, en Contador de palabras online estamos para ayudarte.')
-@section('canonicalUrl', 'https://contadordepalabrasonline.com/contact')
+@section('canonicalUrl', 'https://www.contadordepalabrasonline.com/contact')
 
 @section('content')
 

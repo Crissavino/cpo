@@ -2,7 +2,7 @@
 
 @section('title', 'Acerca De Nosotros')
 @section('description', 'En esta sección te contamos como nació Contador de palabras online y el Simulador SERP online')
-@section('canonicalUrl', 'https://contadordepalabrasonline.com/about')
+@section('canonicalUrl', 'https://www.contadordepalabrasonline.com/about')
 
 @section('content')
 
