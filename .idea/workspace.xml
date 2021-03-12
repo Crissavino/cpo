@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="add text in home and serp again">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="add divs">
       <change beforePath="$PROJECT_DIR$/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,14 +220,7 @@
       <workItem from="1615227731554" duration="952000" />
       <workItem from="1615289604329" duration="6131000" />
       <workItem from="1615467022012" duration="30000" />
-      <workItem from="1615538590736" duration="1294000" />
-    </task>
-    <task id="LOCAL-00002" summary="edit robots.txt">
-      <created>1613464678112</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1613464678113</updated>
+      <workItem from="1615538590736" duration="1384000" />
     </task>
     <task id="LOCAL-00003" summary="edit">
       <created>1613467256951</created>
@@ -566,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615539166376</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="add divs">
+      <created>1615551224103</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1615551224105</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +584,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add changes v7" />
     <MESSAGE value="fix cookies footer" />
     <MESSAGE value="fix title" />
     <MESSAGE value="add faq" />
@@ -610,7 +608,8 @@
     <MESSAGE value="change canonical" />
     <MESSAGE value="change seo title" />
     <MESSAGE value="add text in home and serp again" />
-    <option name="LAST_COMMIT_MESSAGE" value="add text in home and serp again" />
+    <MESSAGE value="add divs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add divs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2359" y="477" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614761191217">
@@ -643,11 +642,11 @@
       <screen x="1680" y="131" width="1920" height="1080" />
     </state>
     <state x="2407" y="386" key="VCS.ChangeListViewerDialog/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615551178637" />
-    <state x="2183" y="415" key="Vcs.Push.Dialog.v2" timestamp="1615539167893">
+    <state x="2183" y="415" key="Vcs.Push.Dialog.v2" timestamp="1615551226103">
       <screen x="1680" y="131" width="1920" height="1080" />
     </state>
     <state x="342" y="-796" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1614678580639" />
-    <state x="2183" y="415" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615539167893" />
+    <state x="2183" y="415" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615551226103" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1614505996855" />
     <state x="2298" y="433" width="683" height="504" key="find.popup" timestamp="1615325069509">
       <screen x="1680" y="131" width="1920" height="1080" />
