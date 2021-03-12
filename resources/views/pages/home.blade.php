@@ -55,24 +55,34 @@
 
             <section class="stats pb-5" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
                 <article class="d-flex align-items-center">
-                    <span class="num" id="numWords">0</span>
-                    <span class="label" style="width: 80px">Palabras</span>
+                    <div>
+                        <span class="num" id="numWords">0</span>
+                        <span class="label" style="width: 80px">Palabras</span>
+                    </div>
                 </article>
                 <article class="d-flex align-items-center">
-                    <span class="num" id="numCharsWithSpaces">0</span>
-                    <span class="label" style="width: 140px">Caracteres (con espacios)</span>
+                    <div>
+                        <span class="num" id="numCharsWithSpaces">0</span>
+                        <span class="label" style="width: 140px">Caracteres (con espacios)</span>
+                    </div>
                 </article>
                 <article class="d-flex align-items-center">
-                    <span class="num" id="numCharsWithoutSpaces">0</span>
-                    <span class="label" style="width: 130px">Caracteres (sin espacios)</span>
+                    <div>
+                        <span class="num" id="numCharsWithoutSpaces">0</span>
+                        <span class="label" style="width: 130px">Caracteres (sin espacios)</span>
+                    </div>
                 </article>
                 <article class="d-flex align-items-center">
-                    <span class="num" id="numParagraph">0</span>
-                    <span class="label" style="width: 80px">Párrafos</span>
+                    <div>
+                        <span class="num" id="numParagraph">0</span>
+                        <span class="label" style="width: 80px">Párrafos</span>
+                    </div>
                 </article>
                 <article class="d-flex align-items-center">
-                    <span class="num" id="numSentences">0</span>
-                    <span class="label" style="width: 80px">Oraciones</span>
+                    <div>
+                        <span class="num" id="numSentences">0</span>
+                        <span class="label" style="width: 80px">Oraciones</span>
+                    </div>
                 </article>
             </section>
 
@@ -139,7 +149,7 @@
                                 <p style="color: white; text-align: left">
                                     El <strong>Contador de palabras online</strong> es una poderosa herramienta la cual
                                     te permite contar la cantidad de palabras, la cantidad de caracteres y letras,
-                                    oraciones y párrafos que se encuentren en tu articulo, texto o ensayo. Solamente
+                                    oraciones y párrafos que se encuentren en tu artículo, texto o ensayo. Solamente
                                     debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del
                                     resto. También es posible copiar y pegar tu texto y el sistema automáticamente
                                     mostrará el conteo de palabras y el conteo de caracteres como si lo hubieras escrito
