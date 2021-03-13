@@ -9,7 +9,9 @@
     @if($errors->any())
         <div class="container mt-3 alert alert-danger">
             <ul style="list-style: none !important;">
-                <li>{{$errors}}</li>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
             </ul>
         </div>
     @endif
