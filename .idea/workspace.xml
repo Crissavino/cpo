@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="add divs">
-      <change beforePath="$PROJECT_DIR$/public/ads.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/ads.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sellers.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
