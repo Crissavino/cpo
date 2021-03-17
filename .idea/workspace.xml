@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="home ads 1 v3">
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
+    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="home ads 2 v1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,13 +228,6 @@
       <workItem from="1615467022012" duration="30000" />
       <workItem from="1615538590736" duration="2060000" />
       <workItem from="1615552818317" duration="4838000" />
-    </task>
-    <task id="LOCAL-00010" summary="add changes v4">
-      <created>1613727470453</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1613727470453</updated>
     </task>
     <task id="LOCAL-00011" summary="add changes v5">
       <created>1613727602794</created>
@@ -571,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615987332512</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="home ads 2 v1">
+      <created>1615987530322</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1615987530322</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,7 +591,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add contact page" />
     <MESSAGE value="add about page" />
     <MESSAGE value="add email" />
     <MESSAGE value="send email from contact page" />
@@ -615,7 +615,8 @@
     <MESSAGE value="home ads 1" />
     <MESSAGE value="home ads 1 v2" />
     <MESSAGE value="home ads 1 v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="home ads 1 v3" />
+    <MESSAGE value="home ads 2 v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="home ads 2 v1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2359" y="477" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614761191217">
@@ -649,12 +650,12 @@
       <screen x="1680" y="131" width="1920" height="1080" />
     </state>
     <state x="2407" y="386" key="VCS.ChangeListViewerDialog/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615551178637" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1615987334920">
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1615987552592">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="342" y="-796" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1614678580639" />
     <state x="2183" y="415" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615551446178" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1615987334920" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1615987552592" />
     <state x="2298" y="433" width="683" height="504" key="find.popup" timestamp="1615325069509">
       <screen x="1680" y="131" width="1920" height="1080" />
     </state>
