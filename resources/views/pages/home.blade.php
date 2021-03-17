@@ -100,6 +100,20 @@
                 </div>
             </div>
 
+            <div class="text-center mt-5 mb-5">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- home-ads-2 -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-5043015646750420"
+                     data-ad-slot="2426875644"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+
             <div class="d-none" id="wordsDensity">
                 <div class="stats mb-0 d-none" id="wordsDensity1">
                     <div class="stat-block d-none" id="word-block-1">

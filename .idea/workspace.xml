@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="home ads 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="home ads 1 v3">
       <change beforePath="$PROJECT_DIR$/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,20 +227,6 @@
       <workItem from="1615467022012" duration="30000" />
       <workItem from="1615538590736" duration="2060000" />
       <workItem from="1615552818317" duration="4838000" />
-    </task>
-    <task id="LOCAL-00008" summary="add changes v2">
-      <created>1613640016865</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1613640016865</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add changes v3">
-      <created>1613727222573</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1613727222573</updated>
     </task>
     <task id="LOCAL-00010" summary="add changes v4">
       <created>1613727470453</created>
@@ -572,7 +557,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615986967389</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="home ads 1 v2">
+      <created>1615987077596</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1615987077597</updated>
+    </task>
+    <task id="LOCAL-00058" summary="home ads 1 v3">
+      <created>1615987332511</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1615987332512</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,8 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add faq to sitemap.xml" />
-    <MESSAGE value="change titles" />
     <MESSAGE value="add contact page" />
     <MESSAGE value="add about page" />
     <MESSAGE value="add email" />
@@ -616,7 +613,9 @@
     <MESSAGE value="add sellers.json" />
     <MESSAGE value="change sitemap" />
     <MESSAGE value="home ads 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="home ads 1" />
+    <MESSAGE value="home ads 1 v2" />
+    <MESSAGE value="home ads 1 v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="home ads 1 v3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2359" y="477" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614761191217">
@@ -627,10 +626,11 @@
       <screen x="1680" y="131" width="1920" height="1080" />
     </state>
     <state x="2453" y="391" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1614762771305" />
-    <state x="1780" y="259" width="1720" height="852" key="DiffContextDialog" timestamp="1615551427602">
-      <screen x="1680" y="131" width="1920" height="1080" />
+    <state x="88" y="124" width="1505" height="829" key="DiffContextDialog" timestamp="1615987521149">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1780" y="259" width="1720" height="852" key="DiffContextDialog/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615551427602" />
+    <state x="88" y="124" width="1505" height="829" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1615987521149" />
     <state x="1780" y="259" width="1720" height="852" key="DiffContextDialog/0.25.1680.942/1680.156.1920.1055@1680.156.1920.1055" timestamp="1615456558452" />
     <state x="660" y="466" key="NewPhpFileDialog" timestamp="1612907907538">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -649,12 +649,12 @@
       <screen x="1680" y="131" width="1920" height="1080" />
     </state>
     <state x="2407" y="386" key="VCS.ChangeListViewerDialog/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615551178637" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1615986969548">
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1615987334920">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="342" y="-796" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1614678580639" />
     <state x="2183" y="415" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615551446178" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1615986969548" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1615987334920" />
     <state x="2298" y="433" width="683" height="504" key="find.popup" timestamp="1615325069509">
       <screen x="1680" y="131" width="1920" height="1080" />
     </state>
