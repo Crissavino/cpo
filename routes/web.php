@@ -16,10 +16,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PagesController::class, 'home'])->name('home')->middleware('searchersReferer');
-Route::get('/serp', [PagesController::class, 'serp'])->name('serp')->middleware('searchersReferer');
+Route::get('/simulador-serp', [PagesController::class, 'serp'])->name('serp')->middleware('searchersReferer');
 Route::get('/cookies', [PagesController::class, 'cookies'])->name('cookies');
 Route::post('/acceptCookies', [PagesController::class, 'acceptCookies'])->name('acceptCookies');
-Route::get('/faq', [PagesController::class, 'faq'])->name('faq');
-Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
-Route::get('/about', [PagesController::class, 'about'])->name('about');
+Route::get('/preguntas-frecuentes', [PagesController::class, 'faq'])->name('faq');
+Route::get('/contacta-con-nuestro-equipo', [PagesController::class, 'contact'])->name('contact');
+Route::get('/acerca-de-nosotros', [PagesController::class, 'about'])->name('about');
 Route::post('/sendContactEmails', [PagesController::class, 'sendContactEmails'])->name('sendContactEmails');

@@ -19,11 +19,22 @@
             <div class="row">
                 <div class="col-8">
                     <p class="customP" style="color: white !important;">
-                        En <strong>Contador de palabras online</strong> decidimos lanzar esta herramienta para contar palabras, contar caracteres, parrafos y oraciones despues de encontrarnos con problemas regulares que otras herramientas similares existentes presentan.
+                        En <strong>Contador de palabras online</strong> decidimos lanzar esta herramienta para contar
+                        palabras, contar caracteres, parrafos y oraciones despues de encontrarnos con problemas
+                        regulares que otras herramientas similares existentes presentan.
                         <br>
-                        Y entonces, manos a la obra, nos pusimos el objetivo de crear una web que no solo sea un contador de palabras online o un contador de caracteres online sino que tambien como usuario te brinde una linda experienca y sea agradable a la vista.
+                        Y entonces, manos a la obra, nos pusimos el objetivo de crear una web que no solo sea un
+                        contador de palabras online o un contador de caracteres online sino que tambien como usuario te
+                        brinde una linda experienca y sea agradable a la vista.
                         <br>
-                        Tambien vimos la necesidad de realizar un <strong>Simulador SERP online</strong> donde te sirva como un contador de caracteres SEO para el titulo y la descripcion y a su vez puedas visualizar, en un ejemplo, como se veria tu pagina en los resultados de busqueda de GOOGLE
+                        Además podrás medir el tiempo de lectura que lleva tu artículo con el cronómetro que se
+                        encuentra en el home, ver la densidad de palabras y las palabras mas usadas que posee tu texto y
+                        así decidir si cambiarlas por un sinónimo a continuar de esta manera, algo que creemos muy
+                        valioso.
+                        <br>
+                        Tambien vimos la necesidad de realizar un <strong>Simulador SERP online</strong> donde te sirva
+                        como un contador de caracteres SEO para el titulo y la descripcion y a su vez puedas visualizar,
+                        en un ejemplo, como se veria tu pagina en los resultados de busqueda de GOOGLE
                     </p>
                     <br>
 
