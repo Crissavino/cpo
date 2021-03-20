@@ -2,7 +2,7 @@
     <h2 class="text-center titles mb-5">Lectura rápida</h2>
     <div class="container">
         <div class="row d-flex justify-content-center">
-            <div class="card mb-3 col-11 p-3">
+            <article class="card mb-3 col-11 p-3">
                 <div class="row g-0">
                     <div class="col-md-4 d-flex justify-content-center align-items-center">
                         <img
@@ -42,9 +42,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="card mb-3 col-11 p-3">
+            <article class="card mb-3 col-11 p-3">
                 <div class="row g-0">
                     <div class="col-md-4 d-flex justify-content-center align-items-center">
                         <img
@@ -77,9 +77,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="card mb-3 col-11 p-3">
+            <article class="card mb-3 col-11 p-3">
                 <div class="row g-0">
                     <div class="col-md-4 d-flex justify-content-center align-items-center">
                         <img
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </article>
         </div>
     </div>
 </section>
