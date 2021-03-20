@@ -243,6 +243,45 @@
 
     </section>
 
+    <section id="how-does-it-work" class="pb-5" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
+        <h2 class="text-center titles">Como usar el simulador SERP online?</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <ul class="numbered-list mt-5">
+                        <li class="">
+                            <div>
+                                <p style="color: white; text-align: left">
+                                    El <strong>Simulador SERP</strong> es una herramienta para que los dueños de sitios web puedan ver como lucirá su sitio en los resultados de búsqueda de Google. Esto te servirá para conocer si debes hacer algún ajuste, si el título se ve bien, si es muy larga la descripción, si la misma es relevante, entre otras tantas cosas.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mt-5">
+                            <div>
+                                <p style="color: white; text-align: left">
+                                    Solo toca el botón Empezar, escribe el título de tu web, la descripción de la página y la url del sitio. A su vez podrás usar nuestro contador de caracteres SEO que aparece a arriba a la derecha del titulo y la descripción para saber si lo que estas escribiendo no es demasiado largo para los resultados de las búsquedas de Google
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mt-5">
+                            <div>
+                                <p style="color: white; text-align: left">
+                                    Cuando termines solo haz click en el botón Ver en google y nosotros nos encargaremos de mostrarte cómo se verá exactamente tu sitio en los resultados de búsqueda de Google cuando las personas te busquen.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mt-5">
+                            <div>
+                                <p style="color: white; text-align: left">
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
 @endsection
 @section('javascript')
     <script>

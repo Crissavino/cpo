@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="optimize images">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/blog.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -627,10 +622,11 @@
       <screen x="1680" y="131" width="1920" height="1080" />
     </state>
     <state x="2453" y="391" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1614762771305" />
-    <state x="1780" y="259" width="1720" height="852" key="DiffContextDialog" timestamp="1615631758683">
-      <screen x="1680" y="131" width="1920" height="1080" />
+    <state x="88" y="124" width="1505" height="829" key="DiffContextDialog" timestamp="1616237872246">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1780" y="259" width="1720" height="852" key="DiffContextDialog/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615631758683" />
+    <state x="88" y="124" width="1505" height="829" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1616237872246" />
     <state x="1780" y="259" width="1720" height="852" key="DiffContextDialog/0.25.1680.942/1680.156.1920.1055@1680.156.1920.1055" timestamp="1615456558452" />
     <state x="168" y="91" key="MergeDialog" timestamp="1616231915257">
       <screen x="0" y="0" width="1680" height="1050" />
