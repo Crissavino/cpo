@@ -53,6 +53,20 @@
         <div class="count-div">
             <textarea name="" id="" cols="30" rows="12" class="form-control count-textarea mb-5"></textarea>
 
+            <div class="text-center mt-5 mb-5">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- home-ads-1 -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-5043015646750420"
+                     data-ad-slot="6679506496"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+
             <div class="stats pb-5" data-aos="zoom-out" data-aos-delay="150" data-aos-once="true">
                 <div class="d-flex align-items-center">
                     <div>
@@ -84,6 +98,20 @@
                         <span class="label" style="width: 80px">Oraciones</span>
                     </div>
                 </div>
+            </div>
+
+            <div class="text-center mt-5 mb-5">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- home-ads-2 -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-5043015646750420"
+                     data-ad-slot="2426875644"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
             </div>
 
             <div class="d-none" id="wordsDensity">
