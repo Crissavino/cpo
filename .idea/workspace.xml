@@ -22,9 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="add text in seo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/blog.blade.php" afterDir="false" />
+    <list default="true" id="0458f631-0f8c-4722-a775-e98bfe00551f" name="Default Changelist" comment="change div for article">
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/seo.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,13 +227,6 @@
       <workItem from="1615538590736" duration="2060000" />
       <workItem from="1615552818317" duration="7884000" />
       <workItem from="1615985673461" duration="52000" />
-    </task>
-    <task id="LOCAL-00008" summary="add changes v2">
-      <created>1613640016865</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1613640016865</updated>
     </task>
     <task id="LOCAL-00009" summary="add changes v3">
       <created>1613727222573</created>
@@ -571,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616237909893</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="change div for article">
+      <created>1616238520337</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1616238520338</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,7 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add faq to sitemap.xml" />
     <MESSAGE value="change titles" />
     <MESSAGE value="add contact page" />
     <MESSAGE value="add about page" />
@@ -615,7 +614,8 @@
     <MESSAGE value="fix show errors" />
     <MESSAGE value="optimize images" />
     <MESSAGE value="add text in seo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add text in seo" />
+    <MESSAGE value="change div for article" />
+    <option name="LAST_COMMIT_MESSAGE" value="change div for article" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2359" y="477" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615631627320">
@@ -657,12 +657,12 @@
       <screen x="1680" y="131" width="1920" height="1080" />
     </state>
     <state x="2407" y="386" key="VCS.ChangeListViewerDialog/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615631753677" />
-    <state x="416" y="90" width="924" height="523" key="Vcs.Push.Dialog.v2" timestamp="1616237917260">
+    <state x="416" y="90" width="924" height="523" key="Vcs.Push.Dialog.v2" timestamp="1616238521974">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="342" y="-796" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-161.-1080.1920.1080@-161.-1080.1920.1080" timestamp="1614678580639" />
     <state x="2183" y="415" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615631430945" />
-    <state x="416" y="90" width="924" height="523" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1616237917260" />
+    <state x="416" y="90" width="924" height="523" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1616238521974" />
     <state x="541" y="294" width="597" height="490" key="find.popup" timestamp="1616233324502">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
