@@ -5,6 +5,7 @@
     <meta name="description" content="@yield('description')">
     <meta property="og:description" content="@yield('description')">
     <link rel="canonical" href="@yield('canonicalUrl')" />
+    <meta name="keywords" content="@yield('keywords', 'contador de palabras online, contador de palabras, contador de caracteres, contador de caracteres online, simulador serp, simulador serp online')">
     @include('partials.head')
 
 </head>
