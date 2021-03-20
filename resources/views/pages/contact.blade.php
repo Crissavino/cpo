@@ -36,11 +36,18 @@
             <div class="row">
                 <div class="ps-5 col-lg-5">
                     <p class="customP" style="color: white !important;">
-                        ¡El personal de <strong>Contador de palabras online</strong> está a su disposición para ayudarlo con cualquier problema que encuentre al usar esta herramienta!
-                        En <strong>Contador de palabras online</strong> estamos disponibles para brindarle todas las respuestas que necesite de lunes a sábado, de 8AM A 8PM.
+                        ¡El personal de <strong>Contador de palabras online</strong> está a su disposición para ayudarlo
+                        con cualquier problema que encuentre al usar esta herramienta!
+                        En <strong>Contador de palabras online</strong> estamos disponibles para brindarle todas las
+                        respuestas que necesite de lunes a sábado, de 8AM A 8PM.
                         <br>
-                        Por correo electrónico a <a href="mailto:contadordepalabrasonline@gmail.com" style="color: #a52f2f !important;">contadordepalabrasonline@gmail.com</a>.
+                        Por correo electrónico a <a href="mailto:contadordepalabrasonline@gmail.com"
+                                                    style="color: #a52f2f !important;">contadordepalabrasonline@gmail.com</a>.
                         ¡También puedes utilizar el formulario que se encuentra en esta página para contactarnos!
+                        <br>
+                        Tambien podes contactarnos para dejarnos tu opinión sobre que te parece nuestra web, si
+                        consideras que podemos mejorar en algo, o porque no, ofrecernos tus servicios, siempre estamos
+                        dispuestos a escuchar lo que nos quieras decir.
                     </p>
                     <br>
 
@@ -51,32 +58,41 @@
                             <h3 class="py-4">Contacto</h3>
                         </div>
                         <div class="bg">
-                            <p class="px-lg-5 mb-4 customP">En el equipo de <strong>Contador de palabras online</strong> estamos disponibles para responder a tus preguntas lo mas rápido posible</p>
-                            <form action="{{route('sendContactEmails')}}" class="px-lg-5" style="font-size: 20px !important;" method="POST">
+                            <p class="px-lg-5 mb-4 customP">En el equipo de <strong>Contador de palabras online</strong>
+                                estamos disponibles para responder a tus preguntas lo mas rápido posible</p>
+                            <form action="{{route('sendContactEmails')}}" class="px-lg-5"
+                                  style="font-size: 20px !important;" method="POST">
                                 @csrf
                                 <div class="mb-4">
                                     <label for="name">Nombre completo *</label>
-                                    <input type="text" placeholder="Nombre" class="form-control" id="name" name="name" required>
+                                    <input type="text" placeholder="Nombre" class="form-control" id="name" name="name"
+                                           required>
                                 </div>
 
                                 <div class="mb-4">
                                     <label for="email">Dirección de email *</label>
-                                    <input type="email" placeholder="correo@email.com" class="form-control" id="email" name="email" required>
+                                    <input type="email" placeholder="correo@email.com" class="form-control" id="email"
+                                           name="email" required>
                                 </div>
 
                                 <div class="mb-4">
                                     <label for="subject">Asunto *</label>
-                                    <input type="text" placeholder="Asunto" class="form-control" id="subject" name="subject" required>
+                                    <input type="text" placeholder="Asunto" class="form-control" id="subject"
+                                           name="subject" required>
                                 </div>
 
                                 <div class="mb-4">
                                     <label for="message">Tu mensaje *</label>
-                                    <textarea name="message" id="message" cols="30" rows="10" required class="form-control"></textarea>
+                                    <textarea name="message" id="message" cols="30" rows="10" required
+                                              class="form-control"></textarea>
                                 </div>
 
                                 <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
                                 <div class="text-center mt-5">
-                                    <button class="btn btn-primary col-8" style="background-color: #a52f2f !important; border-color: #a52f2f !important" type="submit" id="submitBtn">Enviar</button>
+                                    <button class="btn btn-primary col-8"
+                                            style="background-color: #a52f2f !important; border-color: #a52f2f !important"
+                                            type="submit" id="submitBtn">Enviar
+                                    </button>
                                 </div>
                             </form>
                         </div>
