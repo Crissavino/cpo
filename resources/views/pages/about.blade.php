@@ -7,18 +7,10 @@
 @section('content')
 
     <nav>
-        <a href="{{ route('serp') }}" class="seo-link animate">
-            <img class="seo" src="{{asset('img/seo.png')}}" alt="link hacia la pagina del simulador serp online">
-        </a>
-        <a href="{{ route('home') }}" class="abc-link animate" style="top: 45% !important;">
-            <img class="abc" src="{{asset('img/abc.png')}}" alt="link hacia la pagina para contar palabras, caracteres, párrafos y oricaciones online">
-        </a>
-        <a href="{{ route('contact') }}" class="contact-link animate" style="top: 55% !important;">
-            <img class="contact" src="{{asset('img/contact.png')}}" alt="link hacia la pagina de contacto">
-        </a>
-        <a href="{{ route('faq') }}" class="faq-link animate" style="top: 65% !important;">
-            <img class="faq" src="{{asset('img/faq.png')}}" alt="link hacia la pagina de las preguntas frequentes">
-        </a>
+        <a href="{{ route('serp') }}" class="seo-link animate seo-image"></a>
+        <a href="{{ route('home') }}" class="abc-link animate abc-image" style="top: 45% !important;"></a>
+        <a href="{{ route('contact') }}" class="contact-link animate contact-image" style="top: 55% !important;"></a>
+        <a href="{{ route('faq') }}" class="faq-link animate faq-image" style="top: 65% !important;"></a>
     </nav>
 
     <section id="how-does-it-work" class="mb-5" style="min-height: 100vh">

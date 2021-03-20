@@ -10,27 +10,20 @@
         <div class="wrapper">
             <div class="m-5 text-center">
                 <h1 class="titles mb-5">SIMULADOR SERP ONLINE</h1>
-                <a onclick="goToSeo()" id="startButton" class="btn btn-outline-light btn-no-fill btn-rounded mt-5 animate__animated custom-font">Empezar</a>
+                <a onclick="goToSeo()" id="startButton"
+                   class="btn btn-outline-light btn-no-fill btn-rounded mt-5 animate__animated custom-font">Empezar</a>
             </div>
         </div>
     </header>
 
     <nav>
-        <a href="{{ route('home') }}" class="abc-link animate">
-            <img class="abc" src="{{asset('img/abc.png')}}" alt="link hacia la pagina para contar palabras, caracteres, párrafos y oricaciones online">
-        </a>
+        <a href="{{ route('home') }}" class="abc-link animate abc-image"></a>
 
-        <a href="{{ route('contact') }}" class="contact-link animate" style="top: 45% !important;">
-            <img class="contact" src="{{asset('img/contact.png')}}" alt="link hacia la pagina de contacto">
-        </a>
+        <a href="{{ route('contact') }}" class="contact-link animate contact-image" style="top: 45% !important;"></a>
 
-        <a href="{{ route('faq') }}" class="faq-link animate" style="top: 55% !important;">
-            <img class="faq" src="{{asset('img/faq.png')}}" alt="link hacia la pagina de las preguntas frequentes">
-        </a>
+        <a href="{{ route('faq') }}" class="faq-link animate faq-image" style="top: 55% !important;"></a>
 
-        <a href="{{ route('about') }}" class="about-link animate" style="top: 65% !important;">
-            <img class="about" src="{{asset('img/about.png')}}" alt="link hacia la pagina sobre nosotros">
-        </a>
+        <a href="{{ route('about') }}" class="about-link animate about-image" style="top: 65% !important;"></a>
     </nav>
 
     <section id="seoSection">
@@ -41,17 +34,21 @@
                     <label for="title">Título</label>
                     <span id="titleChars" style="font-weight: 600;color: #54bfdd;">60</span>
                 </div>
-                <input type="text" id="title" onkeyup="titleChanged()" onblur="returnTitleCharsValue()" class="form-control mb-4">
+                <input type="text" id="title" onkeyup="titleChanged()" onblur="returnTitleCharsValue()"
+                       class="form-control mb-4">
                 <div class="d-flex justify-content-between">
                     <label for="description">Descripción</label>
                     <span id="descriptionChars" style="font-weight: 600;color: #54bfdd;">156</span>
                 </div>
-                <textarea name="description" onkeyup="descChanged()" onblur="returnDescCharsValue()" id="description" cols="30" class="form-control mb-4" rows="2"></textarea>
+                <textarea name="description" onkeyup="descChanged()" onblur="returnDescCharsValue()" id="description"
+                          cols="30" class="form-control mb-4" rows="2"></textarea>
                 <label for="url">Url</label>
                 <input type="text" id="url" onkeyup="urlChanged()" class="form-control mb-4">
 
                 <div class="text-center">
-                    <a onclick="seeInGoogle()" id="seeInGoogleButton" class="btn btn-outline-light animate__animated btn-rounded mt-5 custom-font" style="color: white; background-color: #61c5e0; padding: 14px 40px; !important;">
+                    <a onclick="seeInGoogle()" id="seeInGoogleButton"
+                       class="btn btn-outline-light animate__animated btn-rounded mt-5 custom-font"
+                       style="color: white; background-color: #61c5e0; padding: 14px 40px; !important;">
                         Ver en google
                     </a>
                 </div>
@@ -122,7 +119,11 @@
                                     </p>
                                     <p>
                                         <span>{{date("M")}} {{date("j")}}, {{date("Y")}} - </span>
-                                        El <strong>Contador de palabras online</strong> es una poderosa herramienta la cual te permite contar la cantidad de <strong>palabras</strong>, <strong>caracteres</strong>, <strong>oraciones</strong> y <strong>párrafos</strong> que se encuentren en tu texto. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto.
+                                        El <strong>Contador de palabras online</strong> es una poderosa herramienta la
+                                        cual te permite contar la cantidad de <strong>palabras</strong>, <strong>caracteres</strong>,
+                                        <strong>oraciones</strong> y <strong>párrafos</strong> que se encuentren en tu
+                                        texto. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos
+                                        encargaremos del resto.
                                     </p>
                                 </div>
 
@@ -132,7 +133,8 @@
                                     </li>
                                     <p class="resultAddr">https://www.contadordepalabrasonline.com/faq</p>
                                     <p>
-                                        Aqui encontraras todas las preguntas y respuestas que habitualmente suelen tener nuestros usuarios
+                                        Aqui encontraras todas las preguntas y respuestas que habitualmente suelen tener
+                                        nuestros usuarios
                                     </p>
                                 </div>
                             </div>
@@ -143,7 +145,11 @@
                                     https://www.contadordepalabrasonline.com/
                                 </p>
                                 <p>
-                                    El <strong>Contador de palabras online</strong> es una poderosa herramienta la cual te permite contar la cantidad de <strong>palabras</strong>, <strong>caracteres</strong>, <strong>oraciones</strong> y <strong>párrafos</strong> que se encuentren en tu texto. Solamente debes empezar a escribir en el cuadro de texto y nosotros nos encargaremos del resto.
+                                    El <strong>Contador de palabras online</strong> es una poderosa herramienta la cual
+                                    te permite contar la cantidad de <strong>palabras</strong>,
+                                    <strong>caracteres</strong>, <strong>oraciones</strong> y <strong>párrafos</strong>
+                                    que se encuentren en tu texto. Solamente debes empezar a escribir en el cuadro de
+                                    texto y nosotros nos encargaremos del resto.
                                 </p>
                             </div>
 
@@ -159,7 +165,8 @@
                                     https://www.contadordepalabrasonline.com/serp
                                 </p>
                                 <p>
-                                    El <strong>Simulador SERP</strong> es una herramienta para que los dueños de sitios web puedan ver como lucirá su sitio en los resultados de búsqueda de Google.
+                                    El <strong>Simulador SERP</strong> es una herramienta para que los dueños de sitios
+                                    web puedan ver como lucirá su sitio en los resultados de búsqueda de Google.
                                 </p>
                             </div>
 

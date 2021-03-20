@@ -17,27 +17,17 @@
     </header>
 
     <nav>
-        <a href="{{ route('serp') }}" class="seo-link animate">
-            <img class="seo" src="{{asset('img/seo.png')}}" alt="link hacia la pagina del simulador serp online">
-        </a>
+        <a href="{{ route('serp') }}" class="seo-link animate seo-image"></a>
 
-        <a href="{{ route('contact') }}" class="contact-link animate" style="top: 45% !important;">
-            <img class="contact" src="{{asset('img/contact.png')}}" alt="link hacia la pagina de contacto">
-        </a>
+        <a href="{{ route('contact') }}" class="contact-link animate contact-image" style="top: 45% !important;"></a>
 
-        <a href="{{ route('faq') }}" class="faq-link animate" style="top: 55% !important;">
-            <img class="faq" src="{{asset('img/faq.png')}}" alt="link hacia la pagina de las preguntas frequentes">
-        </a>
+        <a href="{{ route('faq') }}" class="faq-link animate faq-image" style="top: 55% !important;"></a>
 
-        <a href="{{ route('about') }}" class="about-link animate" style="top: 65% !important;">
-            <img class="about" src="{{asset('img/about.png')}}" alt="link hacia la pagina sobre nosotros">
-        </a>
+        <a href="{{ route('about') }}" class="about-link animate about-image" style="top: 65% !important;"></a>
     </nav>
 
     <section id="timer-section">
-        <div class="animate timer" onclick="clickTimer()">
-            <img class="clock-timer" src="{{asset('img/clock.png')}}" alt="al hacer click abre el cronómetro">
-        </div>
+        <div class="animate timer clock-image" onclick="clickTimer()"></div>
         <div class="animate timer-count text-center d-flex flex-column align-items-center">
             <span class="p-3" id="chronotime">0:00:00:00</span>
             <form name="chronoForm">
