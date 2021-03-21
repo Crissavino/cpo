@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\PagesController;
-use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PagesController::class, 'home'])->name('home')->middleware('searchersReferer');
 Route::get('/simulador-serp', [PagesController::class, 'serp'])->name('serp')->middleware('searchersReferer');
-Route::get('/cookies', [PagesController::class, 'cookies'])->name('cookies');
+Route::get('/politica-de-cookies', [PagesController::class, 'cookies'])->name('cookies');
 Route::post('/acceptCookies', [PagesController::class, 'acceptCookies'])->name('acceptCookies');
 Route::get('/preguntas-frecuentes', [PagesController::class, 'faq'])->name('faq');
 Route::get('/contacta-con-nuestro-equipo', [PagesController::class, 'contact'])->name('contact');
