@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Preguntas Frcuentes')
+@section('title', 'Preguntas Frecuentes')
 @section('description', 'Aqui encontraras todas las preguntas y respuestas que habitualmente suelen tener nuestros usuarios')
 @section('canonicalUrl', 'https://www.contadordepalabrasonline.com/faq')
 
